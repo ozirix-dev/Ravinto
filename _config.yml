@@ -1,0 +1,13 @@
+title: Ravinto
+description: Kasvien ravinto, terveys ja viljely
+theme: minima
+markdown: kramdown
+header_pages:
+  - kasvit/index.md
+plugins:
+  - jekyll-feed
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: page
