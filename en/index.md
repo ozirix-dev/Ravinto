@@ -4,7 +4,7 @@ title: English
 permalink: /en/
 ---
 
-[Suomeksi]({{ '/' | relative_url }})
+[Suomeksi]({{ '/' | relative_url }}) · [English]({{ '/en/' | relative_url }}) · [ภาษาไทย]({{ '/th/' | relative_url }})
 
 Welcome to the Ravinto food and plant knowledge base. Explore information about foods, nutrition, health effects, uses and cultivation.
 
