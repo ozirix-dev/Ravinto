@@ -1,3 +1,9 @@
+---
+title: Amarantti
+layout: page
+permalink: /kasvit/amarantti/
+---
+
 # AMARANTTI (AMARANTHUS)
 
 Laaja kasvi-, ravinto-, terveys- ja viljelyraportti | 20.10.2026
