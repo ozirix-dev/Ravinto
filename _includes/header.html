@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <nav class="site-nav" aria-label="Language selection">
+      <input type="checkbox" id="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon"></span>
+      </label>
+      <div class="trigger">
+        <a class="page-link" href="{{ '/' | relative_url }}" lang="fi" aria-label="Suomi" title="Suomi">🇫🇮 <span>Suomi</span></a>
+        <a class="page-link" href="{{ '/en/' | relative_url }}" lang="en" aria-label="English" title="English">🌐 <span>English</span></a>
+        <a class="page-link" href="{{ '/th/' | relative_url }}" lang="th" aria-label="ภาษาไทย" title="ภาษาไทย">🇹🇭 <span>ภาษาไทย</span></a>
+      </div>
+    </nav>
+  </div>
+</header>
