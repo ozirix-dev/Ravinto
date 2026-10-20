@@ -1,0 +1,12 @@
+<section class="article-audio" data-audio-player
+  data-play="{{ page.audio.play | escape }}"
+  data-pause="{{ page.audio.pause | escape }}"
+  data-loading="{{ page.audio.loading | escape }}"
+  data-error="{{ page.audio.error | escape }}"
+  aria-label="{{ page.audio.aria_label | escape }}">
+  <audio preload="none" src="{{ page.audio.src | relative_url }}"></audio>
+  <button class="article-audio__button" type="button" aria-label="{{ page.audio.aria_label | escape }}">{{ page.audio.play | escape }}</button>
+  <p class="article-audio__note">{{ page.audio.note | escape }}</p>
+  <p class="article-audio__status" role="status" aria-live="polite"></p>
+</section>
+<script src="{{ '/assets/js/audio-player.js' | relative_url }}" defer></script>

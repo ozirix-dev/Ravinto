@@ -1,12 +1,23 @@
 ---
 title: ผักโขม (อมารันท์)
 layout: page
+lang: th
 permalink: /th/plants/amaranth/
+audio:
+  src: /assets/audio/amaranth-th.mp3
+  play: "ฟัง"
+  pause: "หยุดชั่วคราว"
+  loading: "กำลังโหลดเสียง…"
+  error: "เล่นเสียงไม่ได้ โปรดตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง"
+  note: "เสียงสังเคราะห์ด้วย AI"
+  aria_label: "ฟังบทความ"
 ---
 
 [ภาษาไทย]({{ '/th/' | relative_url }}) · [Suomeksi: Amarantti]({{ '/kasvit/amarantti/' | relative_url }}) · [English: Amaranth]({{ '/en/plants/amaranth/' | relative_url }})
 
 # อมารันท์ (AMARANTHUS)
+
+{% include audio-player.html %}
 
 รายงานภาพรวมด้านพืช โภชนาการ สุขภาพ และการเพาะปลูก | 20 ตุลาคม 2026
 

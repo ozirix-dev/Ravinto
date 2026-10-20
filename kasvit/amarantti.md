@@ -2,11 +2,21 @@
 title: Amarantti
 layout: page
 permalink: /kasvit/amarantti/
+audio:
+  src: /assets/audio/amaranth-fi.mp3
+  play: "Kuuntele"
+  pause: "Tauko"
+  loading: "Ääni latautuu…"
+  error: "Ääntä ei voitu toistaa. Tarkista yhteys ja yritä uudelleen."
+  note: "Tekoälyn tuottama ääniversio."
+  aria_label: "Kuuntele artikkeli"
 ---
 
 [Suomeksi: Amarantti]({{ '/kasvit/amarantti/' | relative_url }}) · [English: Amaranth]({{ '/en/plants/amaranth/' | relative_url }}) · [ภาษาไทย: อมารันท์]({{ '/th/plants/amaranth/' | relative_url }})
 
 # AMARANTTI (AMARANTHUS)
+
+{% include audio-player.html %}
 
 Laaja kasvi-, ravinto-, terveys- ja viljelyraportti | 20.10.2026
 

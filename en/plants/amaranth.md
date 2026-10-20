@@ -1,12 +1,23 @@
 ---
 title: Amaranth
 layout: page
+lang: en
 permalink: /en/plants/amaranth/
+audio:
+  src: /assets/audio/amaranth-en.mp3
+  play: "Listen"
+  pause: "Pause"
+  loading: "Loading audio…"
+  error: "Could not play the audio. Check your connection and try again."
+  note: "AI-generated audio."
+  aria_label: "Listen to the article"
 ---
 
 [Suomeksi: Amarantti]({{ '/kasvit/amarantti/' | relative_url }}) · [English: Amaranth]({{ '/en/plants/amaranth/' | relative_url }}) · [ภาษาไทย: อมารันท์]({{ '/th/plants/amaranth/' | relative_url }})
 
 # AMARANTH (AMARANTHUS)
+
+{% include audio-player.html %}
 
 A broad report on the plant, nutrition, health and cultivation | 20 October 2026
 
