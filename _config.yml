@@ -1,4 +1,10 @@
 title: Ravinto
-description: Kasvien ravinto, terveys ja viljely
+description: Tutkimustietoon perustuvaa tietoa kasvien ravinnosta, terveydestä ja viljelystä.
+lang: fi
+url: https://ozirix-dev.github.io
+baseurl: /Ravinto
 theme: minima
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
