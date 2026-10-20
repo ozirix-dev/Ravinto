@@ -6,16 +6,7 @@ document.querySelectorAll("[data-audio-player]").forEach((player) => {
   const pauseLabel = player.dataset.pause;
   const loadingLabel = player.dataset.loading;
   const errorLabel = player.dataset.error;
-  const tableLabel = player.dataset.tableLabel;
-
   if (!audio || !button || !status) return;
-
-  const articleContent = player.closest(".post-content") || player.closest(".page-content");
-  articleContent?.querySelectorAll("table").forEach((table, index) => {
-    table.tabIndex = 0;
-    const heading = table.querySelector("th")?.textContent?.trim();
-    table.setAttribute("aria-label", heading ? `${tableLabel}: ${heading}` : `${tableLabel} ${index + 1}`);
-  });
 
   const setPaused = () => {
     button.textContent = playLabel;

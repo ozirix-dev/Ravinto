@@ -1,30 +1,35 @@
 ---
 title: อมารันท์ – คุณค่าทางโภชนาการ งานวิจัย และการปลูก
 description: สำรวจคุณค่าทางโภชนาการของอมารันท์ งานวิจัยเรื่องน้ำตาลและคอเลสเตอรอล รวมถึงแนวทางปลูกในฟินแลนด์และประเทศไทย
-layout: page
+layout: article
 lang: th
 permalink: /th/plants/amaranth/
 toc_title: เนื้อหาในหน้านี้
-toc:
-  - { id: summary, title: สรุปประเด็นสำคัญ }
-  - { id: plant, title: อมารันท์คือพืชอะไร? }
-  - { id: nutrition, title: คุณค่าทางโภชนาการ }
-  - { id: compounds, title: สารประกอบที่มีลักษณะเฉพาะ }
-  - { id: evidence, title: หลักฐานด้านสุขภาพและงานวิจัย }
-  - { id: safety, title: ความปลอดภัย }
-  - { id: growing-conditions, title: สภาพการปลูก }
-  - { id: thailand, title: การปลูกในประเทศไทย }
-  - { id: thailand-trial, title: แผนทดลองปลูกในประเทศไทย }
-  - { id: thailand-grain, title: การปลูกเพื่อเก็บเมล็ดในประเทศไทย }
-  - { id: finland, title: การปลูกในฟินแลนด์ }
-  - { id: pests, title: ศัตรูพืชและโรคพืช }
-  - { id: taste, title: รสชาติและการใช้ประโยชน์ }
-  - { id: commercial, title: ศักยภาพเชิงพาณิชย์ }
-  - { id: future, title: อมารันท์ในฐานะพืชอาหารแห่งอนาคต }
-  - { id: assessment, title: การประเมินโดยรวม }
+toc_levels: "2,3"
+image: /assets/images/amarantti-kasvi.webp
+image_alt: ต้นอมารันท์ที่มีช่อดอกสีแดงและใบสีเขียว
+index_url: /th/
+article_labels:
+  published: วันที่เผยแพร่
+  updated: วันที่ปรับปรุง
+  author: ผู้เขียน
+  languages: อ่านบทความภาษาอื่น
+  table: ตารางข้อมูล
+  sources: แหล่งข้อมูลสำคัญ
+  related: บทความที่เกี่ยวข้อง
+  index: ดัชนีพืช
+translations:
+  - { lang: fi, hreflang: fi-FI, label: Suomi, url: /kasvit/amarantti/ }
+  - { lang: en, hreflang: en, label: English, url: /en/plants/amaranth/ }
+  - { lang: th, hreflang: th, label: ภาษาไทย, url: /th/plants/amaranth/ }
+sources:
+  - { title: USDA FoodData Central, url: https://fdc.nal.usda.gov/ }
+  - { title: คู่มือการปลูกของมหาวิทยาลัยฟลอริดา, url: https://ask.ifas.ufl.edu/publication/HS1407 }
+  - { title: คำแนะนำการปลูกอมารันท์เมล็ดของรัฐออนแทรีโอ, url: https://www.omafra.gov.on.ca/CropOp/en/field_grain/spec_grains/gama.html }
+  - { title: He และ Corke, “Oil and squalene in amaranthus grain and leaf” (2003), url: https://pubmed.ncbi.nlm.nih.gov/14690373/ }
+  - { title: งานวิจัยการเพาะปลูกอมารันท์ในประเทศไทย }
 audio:
   src: /assets/audio/amaranth-th.mp3
-  table_label: ตารางข้อมูล
   play: "ฟัง"
   pause: "หยุดชั่วคราว"
   loading: "กำลังโหลดเสียง…"
@@ -32,12 +37,6 @@ audio:
   note: "เสียงสังเคราะห์ด้วย AI"
   aria_label: "ฟังบทความ"
 ---
-
-[ภาษาไทย]({{ '/th/' | relative_url }}) · [Suomeksi: Amarantti]({{ '/kasvit/amarantti/' | relative_url }}) · [English: Amaranth]({{ '/en/plants/amaranth/' | relative_url }})
-
-{% include audio-player.html %}
-
-{% include article-toc.html %}
 
 รายงานภาพรวมด้านพืช โภชนาการ สุขภาพ และการเพาะปลูก | 20 ตุลาคม 2026
 
@@ -189,7 +188,7 @@ Amaranthus เป็นสกุลพืชในวงศ์ Amaranthaceae ม
 
 รายงานเดียวกันพบว่าการขนส่งกลูโคสและคอเลสเตอรอลลดลงในแบบจำลองลำไส้ นี่เป็นผลจากการทดลองในห้องปฏิบัติการ ไม่ใช่การลดน้ำตาลหรือคอเลสเตอรอลในเลือดคนในอัตราเดียวกัน
 
-### สรุป
+### สรุป {#evidence-summary}
 
 การศึกษาในมนุษย์ยังไม่ยืนยันอย่างน่าเชื่อถือว่าอมารันท์หรือน้ำมันอมารันท์ลดคอเลสเตอรอล ข้อสังเกตเรื่องน้ำตาลในเลือดยังเป็นข้อมูลเบื้องต้นและขึ้นกับผลิตภัณฑ์ที่ศึกษา เช่น ผงใบ สารสกัดเมล็ด ส่วนผสมธัญพืช หรือเมล็ดพอง อมารันท์รับประทานเป็นส่วนหนึ่งของอาหารที่หลากหลายได้ แต่ไม่ควรถือเป็นยา หรือใช้แทนการรักษาที่แพทย์สั่ง
 
@@ -429,5 +428,3 @@ Amaranthus เป็นสกุลพืชในวงศ์ Amaranthaceae ม
 ### ประเด็นที่ควรศึกษาเพิ่มเติม
 
 ควรทดลองว่าพันธุ์ใดในไทยให้ผลผลิตใบและคุณภาพดีที่สุด สภาพการปลูกมีผลต่อออกซาเลตและรงควัตถุอย่างไร และแปลงยกสูงหรือระบบไฮโดรโปนิกส์จะผลิตได้สม่ำเสมอตลอดปีหรือไม่ คำถามเหล่านี้เป็นแนวทางวิจัยที่ทำได้จริงกว่าการมองอมารันท์เป็นยาครอบจักรวาล
-
-แหล่งข้อมูลสำคัญในรายงานนี้ประกอบด้วย USDA FoodData Central, [คู่มือการปลูกของมหาวิทยาลัยฟลอริดา](https://ask.ifas.ufl.edu/publication/HS1407), [คำแนะนำการปลูกอมารันท์เมล็ดของรัฐออนแทรีโอ](https://www.omafra.gov.on.ca/CropOp/en/field_grain/spec_grains/gama.html), [He และ Corke, “Oil and squalene in amaranthus grain and leaf” (2003)](https://pubmed.ncbi.nlm.nih.gov/14690373/) และงานวิจัยการเพาะปลูกในประเทศไทย

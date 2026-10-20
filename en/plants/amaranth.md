@@ -1,30 +1,35 @@
 ---
 title: Amaranth – nutrition, health research and growing guide
 description: Explore amaranth nutrition, research on blood glucose and cholesterol, and practical growing guidance for Finland and Thailand.
-layout: page
+layout: article
 lang: en
 permalink: /en/plants/amaranth/
 toc_title: On this page
-toc:
-  - { id: summary, title: Summary }
-  - { id: plant, title: What is amaranth? }
-  - { id: nutrition, title: Nutritional value }
-  - { id: compounds, title: Distinctive compounds }
-  - { id: evidence, title: Health effects and research evidence }
-  - { id: safety, title: Safety }
-  - { id: growing-conditions, title: Growing conditions }
-  - { id: thailand, title: Growing in Thailand }
-  - { id: thailand-trial, title: A practical Thailand trial }
-  - { id: thailand-grain, title: Growing grain amaranth in Thailand }
-  - { id: finland, title: Growing in Finland }
-  - { id: pests, title: Pests and plant diseases }
-  - { id: taste, title: Taste and use }
-  - { id: commercial, title: Commercial potential }
-  - { id: future, title: Amaranth as a future crop }
-  - { id: assessment, title: Overall assessment }
+toc_levels: "2,3"
+image: /assets/images/amarantti-kasvi.webp
+image_alt: Amaranth plant with red flower heads and green leaves
+index_url: /en/
+article_labels:
+  published: Published
+  updated: Updated
+  author: Author
+  languages: Read this article in another language
+  table: Data table
+  sources: Key sources
+  related: Related articles
+  index: Plant index
+translations:
+  - { lang: fi, hreflang: fi-FI, label: Suomi, url: /kasvit/amarantti/ }
+  - { lang: en, hreflang: en, label: English, url: /en/plants/amaranth/ }
+  - { lang: th, hreflang: th, label: ภาษาไทย, url: /th/plants/amaranth/ }
+sources:
+  - { title: USDA FoodData Central, url: https://fdc.nal.usda.gov/ }
+  - { title: University of Florida growing guide, url: https://ask.ifas.ufl.edu/publication/HS1407 }
+  - { title: Ontario grain amaranth guide, url: https://www.omafra.gov.on.ca/CropOp/en/field_grain/spec_grains/gama.html }
+  - { title: He and Corke, “Oil and squalene in amaranthus grain and leaf” (2003), url: https://pubmed.ncbi.nlm.nih.gov/14690373/ }
+  - { title: Local Thai amaranth cultivation studies }
 audio:
   src: /assets/audio/amaranth-en.mp3
-  table_label: Data table
   play: "Listen"
   pause: "Pause"
   loading: "Loading audio…"
@@ -32,12 +37,6 @@ audio:
   note: "AI-generated audio."
   aria_label: "Listen to the article"
 ---
-
-[Suomeksi: Amarantti]({{ '/kasvit/amarantti/' | relative_url }}) · [English: Amaranth]({{ '/en/plants/amaranth/' | relative_url }}) · [ภาษาไทย: อมารันท์]({{ '/th/plants/amaranth/' | relative_url }})
-
-{% include audio-player.html %}
-
-{% include article-toc.html %}
 
 A broad report on the plant, nutrition, health and cultivation | 20 October 2026
 
@@ -189,7 +188,7 @@ In the same 2026 report, mean HbA1c fell from 5.8 ± 0.4% to 5.3 ± 0.6%; the au
 
 The same report found reduced glucose and cholesterol transport in a gut model. This is a laboratory result, not an equivalent percentage reduction in a person's blood glucose or cholesterol.
 
-### Summary
+### Summary {#evidence-summary}
 
 Human studies have not reliably shown that amaranth or amaranth oil lowers cholesterol. Blood-glucose findings are preliminary and vary by product: leaf powder, seed extract, grain mixes and popped seed are not the same intervention. Amaranth can be part of a varied diet, but should not be considered medicine or a replacement for prescribed treatment.
 
@@ -429,5 +428,3 @@ Amaranth is an interesting underused food-crop group and a reasonable subject fo
 ### Further questions to investigate
 
 Useful questions include which Thai varieties produce the best leaf yield and quality, how growing conditions affect oxalates and pigments, and whether raised beds or hydroponics can provide a consistent year-round crop. These are practical research topics; amaranth should not be treated as a miracle cure.
-
-Key references used in this report include USDA FoodData Central, the [University of Florida growing guide](https://ask.ifas.ufl.edu/publication/HS1407), [Ontario's grain amaranth guide](https://www.omafra.gov.on.ca/CropOp/en/field_grain/spec_grains/gama.html), [He and Corke, “Oil and squalene in amaranthus grain and leaf” (2003)](https://pubmed.ncbi.nlm.nih.gov/14690373/) and local Thai cultivation studies.
