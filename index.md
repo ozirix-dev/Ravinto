@@ -3,7 +3,7 @@ layout: home
 title: Ravinto
 ---
 
-Tervetuloa Ravinto-kasvitietopankkiin. Täältä löydät kasvien ravintoa, terveysvaikutuksia ja viljelyä käsitteleviä raportteja.
+Tervetuloa Ravinto-tietopankkiin. Täältä löydät tietoa elintarvikkeiden ravintosisällöstä, terveysvaikutuksista, käytöstä ja tuotannosta.
 
 ## Kasvit
 
