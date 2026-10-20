@@ -226,41 +226,36 @@ Huomionarvoista on, että kuumassa, kuivassa tai suolaisessa ympäristössä kas
 
 ## 5. Mitä terveysvaikutuksista todella tiedetään?
 
-Terveysväitteitä kannattaa erotella tutkimusnäytön vahvuuden mukaan.
+Amarantti on ravitseva ruoka, mutta ravintosisältö, laboratoriossa havaittu vaikutus ja ihmiselle osoitettu terveyshyöty ovat eri asioita. Tulos riippuu myös siitä, tutkitaanko lehtiä, kokonaisia siemeniä, öljyä vai tiivistettyä uutetta.
 
-| Väite                                              | Näytön arvio                                          |
-| -------------------------------------------------- | ----------------------------------------------------- |
-| Amarantti tarjoaa hyödyllistä proteiinia           | Vahva ravitsemuksellinen perusta                      |
-| Amarantti sisältää runsaasti kivennäisaineita      | Vahva koostumustieto                                  |
-| Se soveltuu gluteenittomaan ruokavalioon           | Kyllä, kun tuote on puhdas ja turvallisesti käsitelty |
-| Amarantti voi auttaa monipuolistamaan ruokavaliota | Hyvin perusteltu                                      |
-| Se alentaa veren kolesterolia                      | Ei riittävää johdonmukaista näyttöä                   |
-| Se laskee verensokeria                             | Ei yleispätevää näyttöä                               |
-| Se ehkäisee syöpää                                 | Ei osoitettu ihmisillä                                |
-| Skvaleeni pidentää elinikää                        | Ei osoitettu                                          |
-| Amarantti ehkäisee sydänsairauksia                 | Ei osoitettu kliinisesti                              |
+| Väite | Näytön arvio |
+| --- | --- |
+| Amarantti tarjoaa proteiinia ja kivennäisaineita | Hyvin perusteltu koostumustieto |
+| Amarantti alentaa kolesterolia | Ihmistutkimusten tulokset ovat ristiriitaisia; hyötyä ei ole osoitettu luotettavasti |
+| Amarantti laskee verensokeria | Joitakin lupaavia mutta alustavia havaintoja; ei osoitettua hoitovaikutusta |
+| Amarantti ehkäisee syöpää tai sydänsairauksia | Ei osoitettu ihmisillä |
 
-### Erityisen kiinnostava kolesterolitutkimus
+### Kolesteroli – ihmistutkimusten tulokset ovat ristiriitaisia
 
-Vuonna 2019 julkaistiin satunnaistettu, kaksoissokkoutettu vaihtovuorotutkimus, jossa verrattiin amaranttiöljyn ja rypsiöljyn vaikutuksia ylipainoisilla ja lihavilla henkilöillä.
+Vuoden 2010 kaksoissokkotutkimuksessa 22 henkilöä käytti 50 grammaa rasvatonta amaranttivälipalaa tai maissivälipalaa päivässä kahden kuukauden ajan. Kokonaiskolesterolin ja LDL-kolesterolin muutokset eivät eronneet tilastollisesti merkitsevästi ryhmien välillä. HDL-kolesteroli laski amaranttiryhmässä enemmän. Tutkimus ei siis osoittanut, että välipala alentaisi LDL-kolesterolia [verrattuna maissivälipalaan](https://www.scielo.br/j/cta/a/GVtxdxj95zLW5F8STsjswHn/).
 
-Tuloksena amaranttiöljyä käyttäneiden kokonais- ja LDL-kolesteroli olivat epäedullisemmat kuin rypsiöljyä käyttäneiden. Muissa tutkituissa varhaisissa ateroskleroosin merkkiaineissa ei havaittu merkitseviä eroja.
+Vuoden 2019 satunnaistetussa vaihtovuorotutkimuksessa 44 ylipainoista tai lihavaa osallistujaa käytti 20 ml amaranttiöljyä ja rypsiöljyä eri kolmen viikon jaksoilla. Kokonais- ja LDL-kolesterolin muutokset olivat amaranttiöljyllä rypsiöljyyn verrattuna epäedullisemmat [tutkimuksen tulosten mukaan](https://pubmed.ncbi.nlm.nih.gov/31888234/). Vuonna 2021 julkaistu analyysi samasta osallistujajoukosta havaitsi myös ApoB-arvojen ja ApoB/ApoA1-suhteen muutosten olleen rypsiöljyyn verrattuna epäedullisempia; kyse ei ollut uudesta, riippumattomasta tutkimuksesta [2021 analyysi](https://pubmed.ncbi.nlm.nih.gov/34444289/).
 
-Tämä ei todista, että tavallisten amarantinsiementen syöminen olisi haitallista. Se kuitenkin kyseenalaistaa väitteen, että skvaleenipitoinen amaranttiöljy olisi automaattisesti sydämelle parempaa.&#x20;
+Vuoden 2026 tutkimuksessa *Amaranthus caudatus* -siemenuutetta käyttäneiden kokonais- ja LDL-kolesteroli laskivat kolmen kuukauden seurannassa, mutta muutokset eivät olleet tilastollisesti merkitseviä. Kyse oli alustavasta, ilman lume- tai vertailuryhmää tehdystä havainnoivasta seurannasta. Siksi tulos ei osoita uutteen alentavan kolesterolia [tutkimusraportissa](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1740097/full).
 
+### Verensokeri – valmiste ja valmistustapa vaikuttavat
 
+Pienessä tutkimuksessa 90 vaihdevuodet ohittanutta naista jaettiin kolmeen ryhmään. Yksi ryhmä sai 9 grammaa kuivattua amarantinlehtijauhetta päivässä kolmen kuukauden ajan. Ryhmässä raportoitiin paastoverensokerin laskevan 10,4 %. Havainto on kiinnostava, mutta se koskee rajattua ryhmää ja yhtä pienehköä tutkimusta; se ei osoita, että lehtijauhe hoitaisi diabetesta tai että tulos toistuisi muilla ihmisillä [tutkimus](https://pubmed.ncbi.nlm.nih.gov/26396347/).
 
-### Entä verensokeri ja painonhallinta?
+Valmistustapa voi myös muuttaa verensokerivastetta. Vuoden 2015 pienessä tutkimuksessa 20 terveellä aikuisella amaranttia sisältävän viljaseoksen glykeeminen indeksi oli 45,9, kun taas pelkän paisutetun amarantin indeksi oli 105,2. Tutkimus havainnollistaa, ettei yhtä valmistetta voi yleistää kaikkiin amaranttituotteisiin [tutkimus](https://doi.org/10.47739/2333-6706/1074).
 
-Amarantin proteiini ja kuitu voivat olla hyödyllisiä osana tasapainoista ruokavaliota. Mutta valmistustapa vaikuttaa huomattavasti verensokerivasteeseen.
+Vuoden 2026 alustavassa havainnoivassa tutkimuksessa käytettiin 500 mg *Amaranthus caudatus* -siemenuutetta päivässä. Aluksi mukana oli 60 henkilöä, mutta kolmen kuukauden tulostietoja oli 37:ltä. HbA1c-arvo laski keskimäärin 5,8 prosentista 5,3 prosenttiin ja aterianjälkeinen verensokeri pieneni; paastoverensokerin muutos ei ollut merkitsevä. Tutkimuksessa ei ollut satunnaistettua vertailu- tai lumeryhmää, osallistujat saivat ruokavalio-ohjeita ja tutkimuksen rahoitti uutetta toimittava yritys, joka osallistui myös analyysiin ja tulosten tulkintaan. Tulos on siksi alustava eikä osoita, että muutos johtui yksin amarantista [tutkimusraportti](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1740097/full).
 
-Joissakin tutkimuksissa esimerkiksi paisutetulla amarantilla on havaittu korkea glykeeminen indeksi. Eräässä diabetesta sairastavien tutkimuksessa amaranttia sisältävien aterioiden glykeeminen indeksi vaihteli huomattavasti valmistustavan mukaan, ja paisutettua amaranttia sisältävä valmiste tuotti hyvin suuren vasteen.&#x20;
+Samassa vuoden 2026 tutkimuksessa siemenuute vähensi glukoosin ja kolesterolin kulkeutumista suolistomallissa. Tulos on laboratoriomittaus, eikä sitä voi tulkita vastaavaksi prosentuaaliseksi verensokerin tai kolesterolin laskuksi ihmisellä.
 
+### Yhteenveto
 
-Amarantti ei siis ole automaattisesti vähähiilihydraattinen eikä verensokeria laskeva ruoka-aine.
-
-Painonhallinnassa sen paras käyttö on esimerkiksi osittain korvata vähäravinteisia lisukkeita, mutta annoskoko ratkaisee edelleen.
-
+Tähän mennessä ihmistutkimukset eivät osoita luotettavasti, että amarantti tai amaranttiöljy alentaisi kolesterolia. Verensokeria koskevat havainnot ovat alustavia ja riippuvat tutkitusta tuotteesta: lehtijauhe, siemenuute, viljaseos ja paisutettu siemen eivät ole keskenään sama asia. Amaranttia voi käyttää osana monipuolista ruokavaliota, mutta sitä ei pidä pitää lääkkeenä eikä määrättyä hoitoa korvaavana tuotteena.
 ## 6. Turvallisuus ja mahdolliset haitat
 
 ### Oksalaatit
