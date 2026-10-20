@@ -2,14 +2,33 @@
   <div class="wrapper">
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
     <nav class="site-nav" aria-label="Language selection">
-      <input type="checkbox" id="nav-trigger" />
+      <input class="nav-trigger" type="checkbox" id="nav-trigger" />
       <label for="nav-trigger">
         <span class="menu-icon"></span>
       </label>
       <div class="trigger">
-        <a class="page-link" href="{{ '/' | relative_url }}" lang="fi" aria-label="Suomi" title="Suomi">🇫🇮 <span>Suomi</span></a>
-        <a class="page-link" href="{{ '/en/' | relative_url }}" lang="en" aria-label="English" title="English">🌐 <span>English</span></a>
-        <a class="page-link" href="{{ '/th/' | relative_url }}" lang="th" aria-label="ภาษาไทย" title="ภาษาไทย">🇹🇭 <span>ภาษาไทย</span></a>
+        <a class="page-link" href="{{ '/' | relative_url }}" lang="fi" aria-label="Suomi" title="Suomi">
+          <svg class="language-icon" viewBox="0 0 30 20" width="20" height="14" aria-hidden="true" focusable="false">
+            <rect width="30" height="20" fill="#fff" stroke="#c8c8c8" />
+            <path d="M0 7h30v6H0zM9 0h6v20H9z" fill="#003580" />
+          </svg>
+          <span>Suomi</span>
+        </a>
+        <a class="page-link" href="{{ '/en/' | relative_url }}" lang="en" aria-label="English" title="English">
+          <svg class="language-icon" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false">
+            <circle cx="10" cy="10" r="8" fill="none" stroke="#424242" stroke-width="1.7" />
+            <path d="M2 10h16M10 2c2.2 2.2 3.2 4.8 3.2 8s-1 5.8-3.2 8M10 2C7.8 4.2 6.8 6.8 6.8 10s1 5.8 3.2 8" fill="none" stroke="#424242" stroke-width="1.3" />
+          </svg>
+          <span>English</span>
+        </a>
+        <a class="page-link" href="{{ '/th/' | relative_url }}" lang="th" aria-label="ภาษาไทย" title="ภาษาไทย">
+          <svg class="language-icon" viewBox="0 0 30 20" width="20" height="14" aria-hidden="true" focusable="false">
+            <rect width="30" height="20" fill="#a51931" />
+            <path d="M0 4h30v12H0z" fill="#f4f5f8" />
+            <path d="M0 7h30v6H0z" fill="#2d2a4a" />
+          </svg>
+          <span>ภาษาไทย</span>
+        </a>
       </div>
     </nav>
   </div>
