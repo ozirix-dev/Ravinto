@@ -1,10 +1,30 @@
 ---
-title: Amaranth
+title: Amaranth – nutrition, health research and growing guide
+description: Explore amaranth nutrition, research on blood glucose and cholesterol, and practical growing guidance for Finland and Thailand.
 layout: page
 lang: en
 permalink: /en/plants/amaranth/
+toc_title: On this page
+toc:
+  - { id: summary, title: Summary }
+  - { id: plant, title: What is amaranth? }
+  - { id: nutrition, title: Nutritional value }
+  - { id: compounds, title: Distinctive compounds }
+  - { id: evidence, title: Health effects and research evidence }
+  - { id: safety, title: Safety }
+  - { id: growing-conditions, title: Growing conditions }
+  - { id: thailand, title: Growing in Thailand }
+  - { id: thailand-trial, title: A practical Thailand trial }
+  - { id: thailand-grain, title: Growing grain amaranth in Thailand }
+  - { id: finland, title: Growing in Finland }
+  - { id: pests, title: Pests and plant diseases }
+  - { id: taste, title: Taste and use }
+  - { id: commercial, title: Commercial potential }
+  - { id: future, title: Amaranth as a future crop }
+  - { id: assessment, title: Overall assessment }
 audio:
   src: /assets/audio/amaranth-en.mp3
+  table_label: Data table
   play: "Listen"
   pause: "Pause"
   loading: "Loading audio…"
@@ -15,9 +35,9 @@ audio:
 
 [Suomeksi: Amarantti]({{ '/kasvit/amarantti/' | relative_url }}) · [English: Amaranth]({{ '/en/plants/amaranth/' | relative_url }}) · [ภาษาไทย: อมารันท์]({{ '/th/plants/amaranth/' | relative_url }})
 
-# AMARANTH (AMARANTHUS)
-
 {% include audio-player.html %}
+
+{% include article-toc.html %}
 
 A broad report on the plant, nutrition, health and cultivation | 20 October 2026
 
@@ -26,11 +46,11 @@ Amaranth is an interesting group of plants to consider across nutrition, human h
 The amino-acid profile of the seeds, squalene in the oil and betalain pigments in red leaves are of particular interest. Amaranth can also be grown in Thailand, although leaf and grain production involve different practical choices.
 
 <figure class="article-image">
-<img src="{{ '/assets/images/amarantti-kasvi.png' | relative_url }}" alt="Amaranth plant with red flower heads and green leaves">
+<img src="{{ '/assets/images/amarantti-kasvi.webp' | relative_url }}" alt="Amaranth plant with red flower heads and green leaves" width="1536" height="1024" loading="lazy" decoding="async">
 <figcaption>Amaranth can grow tall and form striking flower heads.</figcaption>
 </figure>
 
-## 1. Summary
+## 1. Summary {#summary}
 
 | Feature | Assessment |
 | --- | --- |
@@ -48,7 +68,7 @@ The amino-acid profile of the seeds, squalene in the oil and betalain pigments i
 
 Amaranth's main strength is the combination of useful traits in one plant: it is nutritious, versatile and relatively easy to grow in many environments. Marketing claims about its special compounds are stronger than the health benefits demonstrated in human studies.
 
-## 2. What is amaranth?
+## 2. What is amaranth? {#plant}
 
 Amaranthus is a genus in the Amaranthaceae family, with dozens of species. It is related to plants such as quinoa, spinach and beet. Most amaranths are annual herbs, ranging from a few dozen centimetres to more than two metres tall, depending on variety and conditions.
 
@@ -73,7 +93,7 @@ Amaranth has been cultivated for thousands of years. Indigenous peoples of Centr
 
 Today amaranth is cultivated in Central and South America, India, China, Southeast Asia and several African countries. Seeds are especially important in the Americas, while leaves are widely used in parts of Asia and Africa.
 
-## 3. Nutritional value
+## 3. Nutritional value {#nutrition}
 
 It is important to distinguish dry seeds, cooked seeds and fresh leaves. Their values per 100 g differ substantially, especially because cooked seeds absorb water.
 
@@ -92,7 +112,7 @@ It is important to distinguish dry seeds, cooked seeds and fresh leaves. Their v
 | Potassium | 508 mg | 135 mg | 611 mg |
 | Folate | 82 µg | 22 µg | 85 µg |
 
-Rounded USDA FoodData Central reference values. Values vary by variety, growing conditions and processing. The lower values per 100 g for cooked seed are largely due to absorbed water.
+Rounded reference values from [USDA FoodData Central](https://fdc.nal.usda.gov/). Values vary by variety, growing conditions and processing. The lower values per 100 g for cooked seed are largely due to absorbed water.
 
 ### 3.1. Protein
 
@@ -110,7 +130,7 @@ Amaranth leaves are a low-energy, nutrient-rich vegetable. USDA data for 100 g r
 
 Vitamin C is reduced by cooking, and oxalates can limit absorption of some minerals. The value of the leaves comes from their combination of vitamins, minerals, plant pigments and low energy content.
 
-## 4. Distinctive compounds
+## 4. Distinctive compounds {#compounds}
 
 ### 4.1. Squalene
 
@@ -140,7 +160,7 @@ Laboratory studies have found antioxidant properties, but human evidence does no
 
 Environmental stress can change levels of protective compounds in plants. A higher concentration does not automatically mean a safer or healthier food.
 
-## 5. What do we know about health effects?
+## 5. What do we know about health effects? {#evidence}
 
 Nutrient composition, laboratory findings and demonstrated health benefits in people are different kinds of evidence. Results also depend on whether a study uses leaves, whole seeds, oil or a concentrated extract.
 
@@ -153,19 +173,19 @@ Nutrient composition, laboratory findings and demonstrated health benefits in pe
 
 ### Cholesterol: human findings conflict
 
-In a 2010 double-blind study, 22 people consumed 50 g per day of a defatted amaranth snack or a corn snack for two months. Changes in total and LDL cholesterol did not differ significantly between groups. HDL fell more in the amaranth group. The study did not show that the snack lowered LDL compared with the corn snack. [Study](https://www.scielo.br/j/cta/a/GVtxdxj95zLW5F8STsjswHn/)
+In a 2010 randomized, double-blind trial, 22 people with moderate hypercholesterolaemia consumed 50 g per day of a defatted amaranth snack or a corn snack for two months. Changes in total cholesterol, LDL and triglycerides did not differ significantly between groups; HDL fell more in the amaranth group (p = 0.03). The trial did not show an LDL reduction. Chávez-Jáuregui et al., *Effects of defatted amaranth (Amaranthus caudatus L.) snacks on lipid metabolism of patients with moderate hypercholesterolemia*, Ciência e Tecnologia de Alimentos 30(4), 1007–1010 (2010), DOI [10.1590/S0101-20612010000400026](https://doi.org/10.1590/S0101-20612010000400026).
 
-In a 2019 randomized crossover study, 44 overweight or obese participants used 20 ml of amaranth oil and rapeseed oil in separate three-week periods. Changes in total and LDL cholesterol were less favourable with amaranth oil than with rapeseed oil. [Study](https://pubmed.ncbi.nlm.nih.gov/31888234/) A 2021 analysis of the same participants also found less favourable changes in ApoB and the ApoB/ApoA1 ratio; it was not a new independent trial. [2021 analysis](https://pubmed.ncbi.nlm.nih.gov/34444289/)
+In a 2019 randomized, double-blind crossover trial, 44 overweight or obese participants took 20 mL of amaranth oil and rapeseed oil in separate three-week periods, with a washout period between them. Changes in total and LDL cholesterol were less favourable during the amaranth-oil period than during the rapeseed-oil period (p = 0.002 for both); other analyzed outcomes, including HDL and triglycerides, did not differ significantly between groups. The trial does not support amaranth oil as a cholesterol-lowering product. Dus-Zuchowska et al., *Amaranth Oil Increases Total and LDL Cholesterol Levels without Influencing Early Markers of Atherosclerosis in an Overweight and Obese Population*, Nutrients (2019), DOI [10.3390/nu11123069](https://doi.org/10.3390/nu11123069), PMID [31888234](https://pubmed.ncbi.nlm.nih.gov/31888234/). A 2021 paper analyzed the same participants and is not an independent trial [DOI 10.3390/nu13082743](https://doi.org/10.3390/nu13082743).
 
-A 2026 report on Amaranthus caudatus seed extract found decreases in total and LDL cholesterol over three months, but the changes were not statistically significant. It was an exploratory observational follow-up without a placebo or comparison group, so it does not show that the extract lowers cholesterol. [Report](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1740097/full)
+A preliminary observational report published in 2026 found that total cholesterol (212.16 to 197.03 mg/dL) and LDL (133.4 to 123.86 mg/dL) fell over three months among people taking an Amaranthus caudatus seed extract, but neither change was statistically significant. Sixty people enrolled and three-month outcome data were available for 37; sample sizes varied by analysis. There was no control or placebo group, participants received dietary advice, and NatIng Italia, the extract supplier, funded the study and participated in the research, analysis and interpretation. These before-and-after observations do not establish that the extract caused the changes. Mattiello et al., *Preliminary evaluation of an extract of Amaranthus caudatus as a novel nutraceutical: effects on cholesterol and glucose absorption*, Frontiers in Nutrition (12 Jan 2026), DOI [10.3389/fnut.2025.1740097](https://doi.org/10.3389/fnut.2025.1740097).
 
 ### Blood glucose: the product and preparation matter
 
 A small study divided 90 postmenopausal women into three groups. One group received 9 g of dried amaranth leaf powder daily for three months; fasting glucose was reported to fall by 10.4%. This is an interesting finding in a specific group, but one small study does not establish that the powder treats diabetes or that the result applies to others. [Study](https://pubmed.ncbi.nlm.nih.gov/26396347/)
 
-Preparation may also affect glucose response. In a small 2015 study of 20 healthy adults, a grain mix containing amaranth had a glycaemic index of 45.9, while popped amaranth alone had an index of 105.2. Different amaranth products should not be treated as interchangeable. [Study](https://doi.org/10.47739/2333-6706/1074)
+Preparation may also affect glucose response. In a 2015 study of 20 healthy volunteers, the adjusted glycaemic index was 45.9 for an amaranth breakfast cereal, 74.1 for the comparison cereal, and 105.2 for popped amaranth alone. These values apply to the tested products and small study sample, not to amaranth in general. Schneider, Heinemann and Hahn, *Comparison of Glycemic Index and Satiety of Cereals containing Amaranth*, Journal of Human Nutrition and Food Science 3(5), 1074 (2015), DOI 10.47739/2333-6706/1074 ([full text](https://www.jscimedcentral.com/journal-article-info/Journal-of-Human-Nutrition-and-Food-Science/Comparison-of-Glycemic--Index-and-Satiety-of-Cereals--containing-Amaranth-8443)).
 
-A preliminary 2026 observational study used 500 mg of Amaranthus caudatus seed extract daily. Sixty people enrolled, but three-month results were available for 37. Mean HbA1c fell from 5.8% to 5.3%, and post-meal glucose decreased; fasting-glucose change was not significant. There was no randomized comparison or placebo group, participants received dietary advice, and the company supplying the extract funded the study and took part in analysis and interpretation. The result is preliminary and does not show that amaranth alone caused the change. [Study report](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1740097/full)
+In the same 2026 report, mean HbA1c fell from 5.8 ± 0.4% to 5.3 ± 0.6%; the authors reported statistically significant changes in HbA1c, post-meal glucose and BMI. The fasting-glucose change was not significant. The uncontrolled design and lack of a comparison group prevent causal conclusions; the study evaluated an extract, not ordinary amaranth foods. [Study report](https://doi.org/10.3389/fnut.2025.1740097).
 
 The same report found reduced glucose and cholesterol transport in a gut model. This is a laboratory result, not an equivalent percentage reduction in a person's blood glucose or cholesterol.
 
@@ -186,7 +206,7 @@ Amaranth use has been studied in several regions, but these studies do not show 
 
 **Conclusion on longevity:** There is no reliable long-term population study showing that high amaranth consumption extends life or reduces mortality. Regional food-use studies describe traditions and availability, not health effects by themselves. Overall diet, income, food security and access to healthcare also shape population health.
 
-## 6. Safety and possible concerns
+## 6. Safety and possible concerns {#safety}
 
 ### Oxalates
 
@@ -208,12 +228,12 @@ People taking warfarin who eat large amounts of leafy amaranth should keep vitam
 
 Amaranthus species can accumulate environmental contaminants such as cadmium. A meta-analysis found a notable potential for leaves to accumulate cadmium in contaminated soils. Do not grow edible amaranth in contaminated fill, beside polluted drainage, or where industrial wastewater may affect the soil.
 
-## 7. Growing conditions
+## 7. Growing conditions {#growing-conditions}
 
 Amaranth can grow in varied conditions, but drought tolerance does not mean it will produce a large crop without water.
 
 <figure class="article-image">
-<img src="{{ '/assets/images/amarantti-viljely.png' | relative_url }}" alt="Amaranth growing in a raised bed">
+<img src="{{ '/assets/images/amarantti-viljely.webp' | relative_url }}" alt="Amaranth growing in a raised bed" width="1536" height="1024" loading="lazy" decoding="async">
 <figcaption>An example of amaranth grown in a well-drained raised bed.</figcaption>
 </figure>
 
@@ -238,7 +258,7 @@ C4 photosynthesis helps amaranth maintain efficient carbon fixation at high temp
 
 There are limits: prolonged water stress reduces leaf area and growth and may trigger premature flowering. Saline soil also reduces yield, and varieties differ.
 
-## 8. Growing amaranth in Thailand
+## 8. Growing amaranth in Thailand {#thailand}
 
 Thailand is naturally well suited to amaranth. Leaf production is simpler and faster than growing a crop to mature seed.
 
@@ -278,7 +298,7 @@ Amaranth can be grown in managed hydroponic systems, including recirculating nut
 
 In Thailand, nutrient solution can overheat, reducing dissolved oxygen and increasing root-disease risk. For a first trial, simple substrate growing is a more manageable starting point than a large NFT system. Ensure clean water, aeration and temperature control.
 
-## 9. A practical Thailand trial
+## 9. A practical Thailand trial {#thailand-trial}
 
 A proposed 10 m² trial could compare varieties, yield and rainy-season risks without a large initial investment.
 
@@ -302,7 +322,7 @@ A Thai trial comparing amaranth seedlings reported yields of about 0.28–0.60 k
 
 A Thai comparison of eight accessions also found substantial differences in growth and nutrient composition; local accession AS 129 performed particularly well. This supports testing varieties adapted to local conditions.
 
-## 10. Growing grain amaranth in Thailand
+## 10. Growing grain amaranth in Thailand {#thailand-grain}
 
 Grain production requires the plant to grow, flower, set seed and mature. Many varieties take about 100–120 days or longer and grow 1–2.5 m tall. Main risks include rain, fungal disease, lodging and drying the crop properly. Harvest usually involves threshing, cleaning and careful drying.
 
@@ -316,7 +336,7 @@ First test a planting schedule that allows the seed to mature during a relativel
 
 Reported yields vary widely. A commonly cited range is about 500–2,000 kg per hectare, equivalent to roughly 50–200 g of dry seed per square metre. Higher yields have been reported in successful trials. Hand harvesting a small plot may be labour-intensive relative to the amount of grain.
 
-## 11. Growing amaranth in Finland
+## 11. Growing amaranth in Finland {#finland}
 
 In Finland, growing for leaves and growing for mature seed are different goals.
 
@@ -330,13 +350,13 @@ Many grain varieties need 100–120 days. The Finnish summer can be too short, a
 
 Near Luhanka, begin with 5–10 plants in a warm, sheltered spot rather than a large plot. Ontario guidance also emphasizes warm soil, a frost-free season and proper drying.
 
-## 12. Pests and plant diseases
+## 12. Pests and plant diseases {#pests}
 
 Amaranth is sometimes described as almost trouble-free, which is an overstatement. Problems can include leaf-eating caterpillars, aphids, leaf beetles, damping-off and root or stem diseases.
 
 In tropical conditions, high humidity and dense planting can worsen fungal disease. Repeatedly growing the same crop in one place can increase pest and disease pressure. Good drainage, airflow, healthy seed, removal of plant residues and crop rotation are practical priorities. Use pesticides only when the product is approved for that food crop and country.
 
-## 13. Taste and use
+## 13. Taste and use {#taste}
 
 ### Leaves
 
@@ -347,7 +367,7 @@ In Thailand, leaf amaranth can be stir-fried with garlic, added to soups and ome
 ### Seeds
 
 <figure class="article-image">
-<img src="{{ '/assets/images/amarantti-lehdet-ja-siemenet.png' | relative_url }}" alt="Fresh amaranth leaves and a bowl of amaranth seeds">
+<img src="{{ '/assets/images/amarantti-lehdet-ja-siemenet.webp' | relative_url }}" alt="Fresh amaranth leaves and a bowl of amaranth seeds" width="1536" height="1024" loading="lazy" decoding="async">
 <figcaption>Both amaranth leaves and small seeds are used as food.</figcaption>
 </figure>
 
@@ -357,7 +377,7 @@ Cooked amaranth is often soft and slightly sticky as its small seeds and starch 
 
 Amaranth flour has no gluten network, so baking usually requires other flours or binding ingredients. People with coeliac disease should choose a product labelled gluten-free because cross-contamination can occur during milling and packaging.
 
-## 14. Commercial potential
+## 14. Commercial potential {#commercial}
 
 Amaranth may have commercial potential, but opportunities vary by product.
 
@@ -382,7 +402,7 @@ Amaranth microgreens can be harvested at about 10–18 days and fit small growin
 
 Amaranth oil is interesting because of its squalene, but seed oil is only a few percent of seed weight. If one tonne of seed contained 5% oil and the oil contained 4.2% squalene, the theoretical squalene amount would be about 2.1 kg. Processing losses would reduce the recovered amount. This makes industrial squalene extraction much more complex than selling leaves or seed.
 
-## 15. Amaranth as a future crop
+## 15. Amaranth as a future crop {#future}
 
 Amaranth has several traits of interest for climate-adapted agriculture: C4 photosynthesis, drought tolerance, ability to grow in varied soils and versatile food uses. Its genetic diversity may help breeders develop improved varieties.
 
@@ -390,9 +410,9 @@ Current varieties differ in flowering time, yield, heat tolerance, salt toleranc
 
 Useful goals include earlier-maturing grain varieties, leaf varieties with better tolerance of wet conditions, lower-oxalate food crops, and lines with higher oil or betalain content.
 
-## 16. Overall assessment
+## 16. Overall assessment {#assessment}
 
-My own assessment of the plant, not an official scientific rating:
+Editorial assessment of the plant, not an official scientific rating:
 
 | Category | Rating |
 | --- | ---: |
@@ -404,10 +424,10 @@ My own assessment of the plant, not an official scientific rating:
 | Growing in Finland (seed) | 2.0 / 5 |
 | Proven special health effects | 1.5 / 5 |
 
-I consider amaranth one of the most interesting underused food-crop groups, especially as a cultivation trial in Thailand. Its real strength is not a single miracle compound, but the combination of nutritional, biological and agricultural traits.
+Amaranth is an interesting underused food-crop group and a reasonable subject for cultivation trials in Thailand. Its value lies in the combination of nutritional, biological and agricultural traits rather than a single miracle compound.
 
-### What would I investigate next?
+### Further questions to investigate
 
-I would test which Thai varieties produce the best leaf yield and quality, how growing conditions affect oxalates and useful pigments, and whether raised beds or hydroponics can provide a consistent year-round crop. These are more practical research questions than treating amaranth as a miracle cure.
+Useful questions include which Thai varieties produce the best leaf yield and quality, how growing conditions affect oxalates and pigments, and whether raised beds or hydroponics can provide a consistent year-round crop. These are practical research topics; amaranth should not be treated as a miracle cure.
 
-Key references used in this report include USDA FoodData Central, the [University of Florida growing guide](https://ask.ifas.ufl.edu/publication/HS1407), [Ontario's grain amaranth guide](https://www.omafra.gov.on.ca/CropOp/en/field_grain/spec_grains/gama.html), research on [squalene content](https://pubmed.ncbi.nlm.nih.gov/14690373/) and local Thai cultivation studies.
+Key references used in this report include USDA FoodData Central, the [University of Florida growing guide](https://ask.ifas.ufl.edu/publication/HS1407), [Ontario's grain amaranth guide](https://www.omafra.gov.on.ca/CropOp/en/field_grain/spec_grains/gama.html), [He and Corke, “Oil and squalene in amaranthus grain and leaf” (2003)](https://pubmed.ncbi.nlm.nih.gov/14690373/) and local Thai cultivation studies.

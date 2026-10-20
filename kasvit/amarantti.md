@@ -1,9 +1,30 @@
 ---
-title: Amarantti
+title: Amarantti – ravintoarvot, terveysvaikutukset ja viljely
+description: Tutustu amarantin ravintoarvoihin, terveysvaikutusten tutkimuksiin, verensokeriin, kolesteroliin sekä viljelyyn Suomessa ja Thaimaassa.
 layout: page
+lang: fi
 permalink: /kasvit/amarantti/
+toc_title: Artikkelin sisältö
+toc:
+  - { id: summary, title: Tiivistelmä }
+  - { id: plant, title: Mikä amarantti on? }
+  - { id: nutrition, title: Ravintoarvot }
+  - { id: compounds, title: Amarantin yhdisteet }
+  - { id: evidence, title: Terveysvaikutukset ja tutkimusnäyttö }
+  - { id: safety, title: Turvallisuus }
+  - { id: growing-conditions, title: Kasvuolosuhteet }
+  - { id: thailand, title: Viljely Thaimaassa }
+  - { id: thailand-trial, title: Käytännön viljelysuunnitelma }
+  - { id: thailand-grain, title: Siemenamarantti Thaimaassa }
+  - { id: finland, title: Viljely Suomessa }
+  - { id: pests, title: Tuholaiset ja kasvitaudit }
+  - { id: taste, title: Maku ja käyttö }
+  - { id: commercial, title: Kaupallinen potentiaali }
+  - { id: future, title: Amarantti tulevaisuuden viljelykasvina }
+  - { id: assessment, title: Kokonaisarvio }
 audio:
   src: /assets/audio/amaranth-fi.mp3
+  table_label: Tietotaulukko
   play: "Kuuntele"
   pause: "Tauko"
   loading: "Ääni latautuu…"
@@ -14,9 +35,9 @@ audio:
 
 [Suomeksi: Amarantti]({{ '/kasvit/amarantti/' | relative_url }}) · [English: Amaranth]({{ '/en/plants/amaranth/' | relative_url }}) · [ภาษาไทย: อมารันท์]({{ '/th/plants/amaranth/' | relative_url }})
 
-# AMARANTTI (AMARANTHUS)
-
 {% include audio-player.html %}
+
+{% include article-toc.html %}
 
 Laaja kasvi-, ravinto-, terveys- ja viljelyraportti | 20.10.2026
 
@@ -28,12 +49,12 @@ Erityisen kiinnostavia ovat siementen aminohappokoostumus, öljyn sisältämä s
 
 Amarantti sopii myös Thaimaassa viljeltäväksi, mutta lehti- ja siementuotannon välillä on merkittäviä käytännön eroja.
 <figure class="article-image">
-<img src="{{ '/assets/images/amarantti-kasvi.png' | relative_url }}" alt="Amaranttikasvi punaisine kukintoineen ja vihreine lehtineen">
+<img src="{{ '/assets/images/amarantti-kasvi.webp' | relative_url }}" alt="Amaranttikasvi punaisine kukintoineen ja vihreine lehtineen" width="1536" height="1024" loading="lazy" decoding="async">
 <figcaption>Amarantti kasvaa korkeaksi ja muodostaa näyttävät kukinnot.</figcaption>
 </figure>
 
 
-## 1. Tiivistelmä – tärkeimmät havainnot
+## 1. Tiivistelmä – tärkeimmät havainnot {#summary}
 
 | Ominaisuus                   | Arvio                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------- |
@@ -52,7 +73,7 @@ Amarantti sopii myös Thaimaassa viljeltäväksi, mutta lehti- ja siementuotanno
 
 Raportin keskeinen johtopäätös: Amarantin merkittävin vahvuus on useiden hyvien ominaisuuksien yhdistyminen samaan kasviin. Se on ravitseva, monikäyttöinen ja monissa kasvuympäristöissä suhteellisen helppo viljeltävä. Silti sen erityisyhdisteiden terveysvaikutuksista esitetään markkinoinnissa huomattavasti vahvempia väitteitä kuin ihmistutkimukset oikeuttavat.
 
-## 2. Mikä amarantti oikeastaan on?
+## 2. Mikä amarantti oikeastaan on? {#plant}
 
 Amarantti ei tarkoita vain yhtä kasvilajia. Amaranthus on revonhäntäkasvien heimoon kuuluva suku, jossa on kymmeniä lajeja.
 
@@ -60,7 +81,7 @@ Amarantti kuuluu samaan kasviheimoon esimerkiksi kvinoan, pinaatin ja punajuuren
 
 Se on pääasiassa yksivuotinen ruohovartinen kasvi, jonka kasvukorkeus vaihtelee lajikkeesta ja kasvuolosuhteista riippuen muutamasta kymmenestä senttimetristä yli kahteen metriin.
 
-Monet amarantit käyttävät C4-yhteyttämistä, joka tekee niistä tehokkaita kuumassa ja voimakkaassa auringonpaisteessa. Tästä syystä ne ovat kiinnostavia myös ilmastonmuutokseen sopeutuvassa maataloudessa.&#x20;
+Monet amarantit käyttävät C4-yhteyttämistä, joka tekee niistä tehokkaita kuumassa ja voimakkaassa auringonpaisteessa. Tästä syystä ne ovat kiinnostavia myös ilmastonmuutokseen sopeutuvassa maataloudessa.
 
 
 
@@ -91,7 +112,7 @@ Eurooppaan kasvi tuli myöhemmin, mutta sitä kasvatettiin pitkään enemmän ko
 
 Nykyään amaranttia viljellään ainakin Keski- ja Etelä-Amerikassa, Intiassa, Kiinassa, Kaakkois-Aasiassa ja useissa Afrikan maissa. Eri alueilla käytetään eri lajeja: Amerikan viljelyssä korostuvat siemenet, kun taas Aasiassa ja Afrikassa lehdet ovat erittäin tärkeitä.
 
-## 3. Ravintoarvot – kuinka hyvä amarantti on?
+## 3. Ravintoarvot – kuinka hyvä amarantti on? {#nutrition}
 
 Amarantin ravintoarvoja arvioitaessa on erotettava kolme eri tuotetta: kuivat siemenet, keitetyt siemenet ja tuoreet lehdet.
 
@@ -110,7 +131,7 @@ Amarantin ravintoarvoja arvioitaessa on erotettava kolme eri tuotetta: kuivat si
 | Kalium         | 508 mg       | 135 mg          | 611 mg      |
 | Folaatti       | 82 µg        | 22 µg           | 85 µg       |
 
-USDA FoodData Centralin vertailuarvoja, pyöristetty. Keitettyjen siementen pienempi pitoisuus 100 grammassa johtuu suurelta osin veden imeytymisestä. Pitoisuudet vaihtelevat lajikkeen, viljelyolosuhteiden ja käsittelyn mukaan.&#x20;
+Taulukon pyöristetyt vertailuarvot: [USDA FoodData Central](https://fdc.nal.usda.gov/). Keitettyjen siementen pienempi pitoisuus 100 grammassa johtuu suurelta osin veden imeytymisestä. Pitoisuudet vaihtelevat lajikkeen, viljelyolosuhteiden ja käsittelyn mukaan.
 
 ### 3.1. Proteiini – amarantin suurimpia vahvuuksia
 
@@ -122,7 +143,7 @@ Amarantin erityinen vahvuus on lysiini, välttämätön aminohappo, jota on esim
 
 USDA:n vertailuarvojen mukaan 100 grammassa kuivaa amarantinsiementä on noin 0,75 grammaa lysiiniä.
 
-Amarantissa on myös arginiinia, leusiinia, valiiniä, treoniinia ja muita välttämättömiä aminohappoja.&#x20;
+Amarantissa on myös arginiinia, leusiinia, valiiniä, treoniinia ja muita välttämättömiä aminohappoja.
 
 
 
@@ -157,7 +178,7 @@ K-vitamiinipitoisuus voi siis olla erittäin suuri. C-vitamiinia puolestaan häv
 
 Lehtiamarantin arvo ei perustu yksittäiseen vitamiiniin vaan siihen, että sama kasvi tarjoaa monipuolisen yhdistelmän vitamiineja, kivennäisaineita, kasvipigmenttejä ja vähäisen energiamäärän.
 
-## 4. Amarantin erikoiset yhdisteet
+## 4. Amarantin erikoiset yhdisteet {#compounds}
 
 Tämä on mielestäni kasvin kiinnostavinta biokemiaa. Amarantista tunnetaan useita yhdisteitä, joiden merkitystä elintarvike- ja lääkekehityksessä tutkitaan.
 
@@ -181,13 +202,13 @@ Laajassa, 104 amarantin genotyypin tutkimuksessa mitattiin seuraavat pitoisuudet
 
 Siemenen öljypitoisuus keskimäärin
 
-# 5,0 %
+**5,0 %**
 
 Vaihteluväli 1,9–8,7 %
 
 Skvaleenin osuus öljystä keskimäärin
 
-# 4,2 %
+**4,2 %**
 
 Enimmillään 7,3 % tutkituissa näytteissä
 
@@ -217,7 +238,7 @@ Amarantin betalaiinit ovat kemiallisesti eri ryhmä kuin esimerkiksi mustikan an
 
 Laboratoriotutkimuksissa betalaiineilla on havaittu antioksidanttisia ominaisuuksia. Ihmisillä ei kuitenkaan ole riittävää näyttöä siitä, että juuri amarantin pigmentit ehkäisisivät merkittävästi kroonisia sairauksia.
 
-Eräässä tutkimuksessa selvitettiin 48 amaranttikannan väriainekoostumusta. Betasyaniinien pitoisuuksissa havaittiin erittäin suurta vaihtelua, mikä osoittaa lajikevalinnan merkityksen, jos amaranttia halutaan hyödyntää luonnollisten väriaineiden tuotannossa.&#x20;
+Eräässä tutkimuksessa selvitettiin 48 amaranttikannan väriainekoostumusta. Betasyaniinien pitoisuuksissa havaittiin erittäin suurta vaihtelua, mikä osoittaa lajikevalinnan merkityksen, jos amaranttia halutaan hyödyntää luonnollisten väriaineiden tuotannossa.
 
 
 
@@ -236,7 +257,7 @@ Eräässä tutkimuksessa selvitettiin 48 amaranttikannan väriainekoostumusta. B
 
 Huomionarvoista on, että kuumassa, kuivassa tai suolaisessa ympäristössä kasvaneiden kasvien suojayhdisteiden pitoisuus saattaa muuttua. Suurempi pitoisuus ei silti automaattisesti merkitse parempaa ruokaturvallisuutta tai terveellisempää lopputuotetta.
 
-## 5. Mitä terveysvaikutuksista todella tiedetään?
+## 5. Mitä terveysvaikutuksista todella tiedetään? {#evidence}
 
 Amarantti on ravitseva ruoka, mutta ravintosisältö, laboratoriossa havaittu vaikutus ja ihmiselle osoitettu terveyshyöty ovat eri asioita. Tulos riippuu myös siitä, tutkitaanko lehtiä, kokonaisia siemeniä, öljyä vai tiivistettyä uutetta.
 
@@ -249,19 +270,19 @@ Amarantti on ravitseva ruoka, mutta ravintosisältö, laboratoriossa havaittu va
 
 ### Kolesteroli – ihmistutkimusten tulokset ovat ristiriitaisia
 
-Vuoden 2010 kaksoissokkotutkimuksessa 22 henkilöä käytti 50 grammaa rasvatonta amaranttivälipalaa tai maissivälipalaa päivässä kahden kuukauden ajan. Kokonaiskolesterolin ja LDL-kolesterolin muutokset eivät eronneet tilastollisesti merkitsevästi ryhmien välillä. HDL-kolesteroli laski amaranttiryhmässä enemmän. Tutkimus ei siis osoittanut, että välipala alentaisi LDL-kolesterolia [verrattuna maissivälipalaan](https://www.scielo.br/j/cta/a/GVtxdxj95zLW5F8STsjswHn/).
+Vuoden 2010 satunnaistetussa kaksoissokkotutkimuksessa 22 henkilöä, joilla oli kohtalainen hyperkolesterolemia, käytti 50 g rasvatonta amaranttivälipalaa tai maissivälipalaa päivässä kahden kuukauden ajan. Kokonaiskolesterolin, LDL:n ja triglyseridien muutokset eivät eronneet merkitsevästi ryhmien välillä; HDL laski amaranttiryhmässä enemmän (p = 0,03). Tutkimus ei siis osoittanut LDL:n laskua. Chávez-Jáuregui ym., *Effects of defatted amaranth (Amaranthus caudatus L.) snacks on lipid metabolism of patients with moderate hypercholesterolemia*, Ciência e Tecnologia de Alimentos 30(4), 1007–1010 (2010), DOI [10.1590/S0101-20612010000400026](https://doi.org/10.1590/S0101-20612010000400026).
 
-Vuoden 2019 satunnaistetussa vaihtovuorotutkimuksessa 44 ylipainoista tai lihavaa osallistujaa käytti 20 ml amaranttiöljyä ja rypsiöljyä eri kolmen viikon jaksoilla. Kokonais- ja LDL-kolesterolin muutokset olivat amaranttiöljyllä rypsiöljyyn verrattuna epäedullisemmat [tutkimuksen tulosten mukaan](https://pubmed.ncbi.nlm.nih.gov/31888234/). Vuonna 2021 julkaistu analyysi samasta osallistujajoukosta havaitsi myös ApoB-arvojen ja ApoB/ApoA1-suhteen muutosten olleen rypsiöljyyn verrattuna epäedullisempia; kyse ei ollut uudesta, riippumattomasta tutkimuksesta [2021 analyysi](https://pubmed.ncbi.nlm.nih.gov/34444289/).
+Vuoden 2019 satunnaistetussa, kaksoissokkoutetussa vaihtovuorotutkimuksessa 44 ylipainoista tai lihavaa osallistujaa käytti 20 ml amaranttiöljyä ja rypsiöljyä kumpaakin kolmen viikon jaksoissa, joiden välissä oli huuhtoutumisjakso. Kokonais- ja LDL-kolesterolin muutos oli amaranttiöljyjaksolla rypsiöljyjaksoa epäedullisempi (molemmissa p = 0,002); muissa analysoiduissa tuloksissa, myös HDL:ssä ja triglyserideissä, ryhmien välillä ei ollut merkitsevää eroa. Tulos ei tue amaranttiöljyn käyttöä kolesterolia alentavana tuotteena. Dus-Zuchowska ym., *Amaranth Oil Increases Total and LDL Cholesterol Levels without Influencing Early Markers of Atherosclerosis in an Overweight and Obese Population*, Nutrients (2019), DOI [10.3390/nu11123069](https://doi.org/10.3390/nu11123069), PMID [31888234](https://pubmed.ncbi.nlm.nih.gov/31888234/). Vuoden 2021 artikkeli analysoi samaa osallistujajoukkoa, joten se ei ole uusi riippumaton tutkimus [DOI 10.3390/nu13082743](https://doi.org/10.3390/nu13082743).
 
-Vuoden 2026 tutkimuksessa *Amaranthus caudatus* -siemenuutetta käyttäneiden kokonais- ja LDL-kolesteroli laskivat kolmen kuukauden seurannassa, mutta muutokset eivät olleet tilastollisesti merkitseviä. Kyse oli alustavasta, ilman lume- tai vertailuryhmää tehdystä havainnoivasta seurannasta. Siksi tulos ei osoita uutteen alentavan kolesterolia [tutkimusraportissa](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1740097/full).
+Vuonna 2026 julkaistussa alustavassa havainnoivassa raportissa *Amaranthus caudatus* -siemenuutetta käyttäneiden kokonaiskolesteroli (212,16:sta 197,03 mg/dl:aan) ja LDL (133,4:stä 123,86 mg/dl:aan) laskivat kolmen kuukauden aikana, mutta muutokset eivät olleet tilastollisesti merkitseviä. Seuranta alkoi 60 henkilöllä ja kolmen kuukauden tulostietoja oli 37 osallistujalta; analyyseissa osallistujamäärät vaihtelivat. Kontrolli- tai lumeryhmää ei ollut, osallistujat saivat ruokavalio-ohjeita ja uutteen toimittanut NatIng Italia rahoitti tutkimuksen sekä osallistui tutkimustyöhön, analyysiin ja tulkintaan. Ennen–jälkeen-havainto ei osoita, että muutos johtuisi uutteesta. Mattiello ym., *Preliminary evaluation of an extract of Amaranthus caudatus as a novel nutraceutical: effects on cholesterol and glucose absorption*, Frontiers in Nutrition (12.1.2026), DOI [10.3389/fnut.2025.1740097](https://doi.org/10.3389/fnut.2025.1740097).
 
 ### Verensokeri – valmiste ja valmistustapa vaikuttavat
 
 Pienessä tutkimuksessa 90 vaihdevuodet ohittanutta naista jaettiin kolmeen ryhmään. Yksi ryhmä sai 9 grammaa kuivattua amarantinlehtijauhetta päivässä kolmen kuukauden ajan. Ryhmässä raportoitiin paastoverensokerin laskevan 10,4 %. Havainto on kiinnostava, mutta se koskee rajattua ryhmää ja yhtä pienehköä tutkimusta; se ei osoita, että lehtijauhe hoitaisi diabetesta tai että tulos toistuisi muilla ihmisillä [tutkimus](https://pubmed.ncbi.nlm.nih.gov/26396347/).
 
-Valmistustapa voi myös muuttaa verensokerivastetta. Vuoden 2015 pienessä tutkimuksessa 20 terveellä aikuisella amaranttia sisältävän viljaseoksen glykeeminen indeksi oli 45,9, kun taas pelkän paisutetun amarantin indeksi oli 105,2. Tutkimus havainnollistaa, ettei yhtä valmistetta voi yleistää kaikkiin amaranttituotteisiin [tutkimus](https://doi.org/10.47739/2333-6706/1074).
+Valmistustapa voi myös muuttaa verensokerivastetta. Vuoden 2015 tutkimuksessa 20 terveellä vapaaehtoisella amaranttia sisältävän aamiaismuroseoksen säädetty glykeeminen indeksi oli 45,9; vertailumuroseoksen 74,1 ja pelkän paisutetun amarantin 105,2. Luvut koskevat tutkittuja tuotteita ja pientä tutkimusjoukkoa, eivät amaranttia yleisesti. Schneider, Heinemann ja Hahn, *Comparison of Glycemic Index and Satiety of Cereals containing Amaranth*, Journal of Human Nutrition and Food Science 3(5), 1074 (2015), DOI 10.47739/2333-6706/1074 ([full text](https://www.jscimedcentral.com/journal-article-info/Journal-of-Human-Nutrition-and-Food-Science/Comparison-of-Glycemic--Index-and-Satiety-of-Cereals--containing-Amaranth-8443)).
 
-Vuoden 2026 alustavassa havainnoivassa tutkimuksessa käytettiin 500 mg *Amaranthus caudatus* -siemenuutetta päivässä. Aluksi mukana oli 60 henkilöä, mutta kolmen kuukauden tulostietoja oli 37:ltä. HbA1c-arvo laski keskimäärin 5,8 prosentista 5,3 prosenttiin ja aterianjälkeinen verensokeri pieneni; paastoverensokerin muutos ei ollut merkitsevä. Tutkimuksessa ei ollut satunnaistettua vertailu- tai lumeryhmää, osallistujat saivat ruokavalio-ohjeita ja tutkimuksen rahoitti uutetta toimittava yritys, joka osallistui myös analyysiin ja tulosten tulkintaan. Tulos on siksi alustava eikä osoita, että muutos johtui yksin amarantista [tutkimusraportti](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1740097/full).
+Samassa vuoden 2026 raportissa HbA1c laski keskimäärin 5,8 ± 0,4 prosentista 5,3 ± 0,6 prosenttiin, ja kirjoittajat raportoivat HbA1c:n, aterianjälkeisen glukoosin sekä BMI:n muutokset tilastollisesti merkitseviksi. Paastoglukoosin muutos ei ollut merkitsevä. Tutkimuksen kontrolloimaton asetelma ja puuttuva vertailuryhmä estävät syy-yhteyden päättelemisen; tutkimus käsitteli uutetta, ei tavanomaisen amaranttiruoan vaikutusta. [Tutkimusraportti](https://doi.org/10.3389/fnut.2025.1740097).
 
 Samassa vuoden 2026 tutkimuksessa siemenuute vähensi glukoosin ja kolesterolin kulkeutumista suolistomallissa. Tulos on laboratoriomittaus, eikä sitä voi tulkita vastaavaksi prosentuaaliseksi verensokerin tai kolesterolin laskuksi ihmisellä.
 
@@ -281,7 +302,7 @@ Amarantin käyttöä on tutkittu eri alueilla, mutta tutkimusten tulokset eivät
 
 **Elinikää koskeva johtopäätös:** käytettävissä ei ole luotettavaa pitkäaikaista väestötutkimusta, joka osoittaisi runsaan amarantin käytön pidentävän elinikää tai vähentävän kuolleisuutta. Alueelliset käyttöhavainnot kertovat ruokaperinteistä ja saatavuudesta; ne eivät yksin osoita terveysvaikutusta. Myös ruokavalion kokonaisuus, toimeentulo, ruokaturva ja terveyspalvelut vaikuttavat väestöjen terveyteen.
 
-## 6. Turvallisuus ja mahdolliset haitat
+## 6. Turvallisuus ja mahdolliset haitat {#safety}
 
 ### Oksalaatit
 
@@ -289,7 +310,7 @@ Sekä siemenissä että lehdissä esiintyy oksalaatteja. Joissakin lehtilajikkei
 
 Oksalaatit voivat sitoa kivennäisaineita ja lisätä oksalaattikiville alttiiden henkilöiden kuormitusta.
 
-Eräässä 30 siemenamaranttikannan tutkimuksessa oksalaattia oli keskimäärin 229 mg sadassa grammassa siemeniä. Suurin osa oli kuitenkin liukenemattomassa muodossa, eikä tutkimus suoraan osoita samanlaista imeytymisriskiä kuin liukoisella oksalaatilla.&#x20;
+Eräässä 30 siemenamaranttikannan tutkimuksessa oksalaattia oli keskimäärin 229 mg sadassa grammassa siemeniä. Suurin osa oli kuitenkin liukenemattomassa muodossa, eikä tutkimus suoraan osoita samanlaista imeytymisriskiä kuin liukoisella oksalaatilla.
 
 
 Runsaasti oksalaattia sisältävien lehtien keittäminen vedessä ja keitinveden kaataminen pois voi pienentää oksalaattikuormaa. Tämä vähentää samalla myös osaa vesiliukoisista ravintoaineista.
@@ -298,29 +319,29 @@ Runsaasti oksalaattia sisältävien lehtien keittäminen vedessä ja keitinveden
 
 Lehtiamarantti voi kerätä nitraattia etenkin, jos typpilannoitus on runsasta ja kasvuolosuhteet epätasapainossa. Pitkä keittäminen tai ryöppääminen ja keitinveden poistaminen vähentävät pitoisuutta.
 
-Nitraattien merkitys on huomioitava erityisesti, jos vihannesta aiotaan käyttää imeväisten ruoassa. Pienten lasten osalta on perusteltua välttää suuria määriä itse kasvatettua, nitraattipitoisuudeltaan tuntematonta lehtiamaranttia.&#x20;
+Nitraattien merkitys on huomioitava erityisesti, jos vihannesta aiotaan käyttää imeväisten ruoassa. Pienten lasten osalta on perusteltua välttää suuria määriä itse kasvatettua, nitraattipitoisuudeltaan tuntematonta lehtiamaranttia.
 
 
 
 ### K-vitamiini ja lääkkeet
 
-Runsaasti lehtiamaranttia syövän, varfariinia käyttävän henkilön on pidettävä K-vitamiinin saanti tasaisena ja keskusteltava ruokavalion olennaisista muutoksista hoitopaikan kanssa.&#x20;
+Runsaasti lehtiamaranttia syövän, varfariinia käyttävän henkilön on pidettävä K-vitamiinin saanti tasaisena ja keskusteltava ruokavalion olennaisista muutoksista hoitopaikan kanssa.
 
 
 ### Raskasmetallit
 
 Tämä on merkittävä viljelyn turvallisuuskysymys.
 
-Amaranthus-suvun kasvit voivat kerätä ympäristöstään esimerkiksi kadmiumia. Tutkimusten meta-analyysissä lehdillä havaittiin erityistä kadmiumin kertymispotentiaalia pilaantuneissa maissa.&#x20;
+Amaranthus-suvun kasvit voivat kerätä ympäristöstään esimerkiksi kadmiumia. Tutkimusten meta-analyysissä lehdillä havaittiin erityistä kadmiumin kertymispotentiaalia pilaantuneissa maissa.
 
 
 Siksi syötävää amaranttia ei kannata kasvattaa epäpuhtaassa täyttömaassa, saastuneen ojan reunalla tai teollisuuden jätevesien vaikutusalueella.
 
-## 7. Kasvuolosuhteet – kuinka vaativa kasvi amarantti on?
+## 7. Kasvuolosuhteet – kuinka vaativa kasvi amarantti on? {#growing-conditions}
 
 Amarantin vahvuus on kyky kasvaa monenlaisissa olosuhteissa. Kuivuudenkestävyys ei kuitenkaan tarkoita, että kasvi tuottaisi suuren sadon ilman vettä.
 <figure class="article-image">
-<img src="{{ '/assets/images/amarantti-viljely.png' | relative_url }}" alt="Amarantteja kasvamassa kohopenkissä">
+<img src="{{ '/assets/images/amarantti-viljely.webp' | relative_url }}" alt="Amarantteja kasvamassa kohopenkissä" width="1536" height="1024" loading="lazy" decoding="async">
 <figcaption>Esimerkki amarantin kasvatuksesta hyvin vettä läpäisevässä penkissä.</figcaption>
 </figure>
 
@@ -338,7 +359,7 @@ Amarantin vahvuus on kyky kasvaa monenlaisissa olosuhteissa. Kuivuudenkestävyys
 | Halla        | Ei kestä                                                          |
 | Lannoitus    | Kohtuullinen, etenkin typpilannoituksen kanssa varovaisuutta      |
 
-Arvot perustuvat pääosin Floridan yliopiston lehtiamarantin viljelyohjeeseen. Siemenamarantin suositukset poikkeavat hieman; esimerkiksi Ontarion viljelyohjeessa maaperän tavoite-pH on 6,5–7,5.&#x20;
+Arvot perustuvat pääosin Floridan yliopiston lehtiamarantin viljelyohjeeseen. Siemenamarantin suositukset poikkeavat hieman; esimerkiksi Ontarion viljelyohjeessa maaperän tavoite-pH on 6,5–7,5.
 
 
 
@@ -348,11 +369,11 @@ C4-yhteyttämisen ansiosta amarantti pystyy ylläpitämään tehokasta hiilensid
 
 Tästä on erityistä hyötyä ympäristöissä, joissa auringon säteily on voimakasta ja haihdunta suurta.
 
-Kestävyydellä on silti rajansa. Pitkittynyt vesistressi vähentää lehtipinta-alaa, hidastaa kasvua ja voi käynnistää kukinnan liian aikaisin. Myös maan suolapitoisuus heikentää satoa, ja lajikkeiden välillä on eroja.&#x20;
+Kestävyydellä on silti rajansa. Pitkittynyt vesistressi vähentää lehtipinta-alaa, hidastaa kasvua ja voi käynnistää kukinnan liian aikaisin. Myös maan suolapitoisuus heikentää satoa, ja lajikkeiden välillä on eroja.
 
 
 
-## 8. Amarantin viljely Thaimaassa
+## 8. Amarantin viljely Thaimaassa {#thailand}
 
 Thaimaa on amarantille luontaisesti hyvin sopiva ympäristö.
 
@@ -370,7 +391,7 @@ Thaiksi amarantista käytetään muun muassa nimiä ผักโขม ja ผั
 | ผักโขมแดง          | Punainen amarantti                            |
 | ผักโขมหนาม         | Piikikäs amarantti                            |
 
-Thaimaalainen kasvinnimistö ei aina yksilöi kasvia tarkasti, joten siemeniä hankittaessa kannattaa tarkistaa myös tieteellinen lajinimi. Thaimaan elintarvikeviranomaisen kasviluettelo tunnistaa erikseen esimerkiksi A. tricolor-, A. viridis- ja A. caudatus -lajit.&#x20;
+Thaimaalainen kasvinnimistö ei aina yksilöi kasvia tarkasti, joten siemeniä hankittaessa kannattaa tarkistaa myös tieteellinen lajinimi. Thaimaan elintarvikeviranomaisen kasviluettelo tunnistaa erikseen esimerkiksi A. tricolor-, A. viridis- ja A. caudatus -lajit.
 
 
 
@@ -400,7 +421,7 @@ Sadekauden kasvupenkin rakenne – periaatekuva
 
 Havainnekuva, ei mittakaavassa. Korotettu penkki ei auta, jos koko alue jää pitkäksi aikaa tulvaveden alle.
 
-Floridan yliopiston ohjeissa sadekaudelle suositellaan jopa noin 50 cm korkeita penkkejä. Käytännön kokeilussa lähtisin 30–50 cm korkeista penkeistä, jos maaperä on helposti vettyvää.&#x20;
+Floridan yliopiston ohjeissa sadekaudelle suositellaan jopa noin 50 cm korkeita penkkejä. Käytännön kokeilussa lähtisin 30–50 cm korkeista penkeistä, jos maaperä on helposti vettyvää.
 
 
 Penkin molemmilla puolilla pitää olla veden poistumisreitti, joka johtaa riittävän matalaan purkupaikkaan. Pelkkä oja ilman toimivaa purkureittiä ei ratkaise tulvaongelmaa.
@@ -417,7 +438,7 @@ Haasteena Thaimaassa on ravinneliuoksen lämpeneminen, joka heikentää hapen li
 
 Ensimmäiseen kokeiluun suosittelisin yksinkertaista kasvualustaviljelyä ennen suurempaa NFT-järjestelmää. Vesiviljelmän ravinneliuos tarvitsee kuitenkin riittävän hapetuksen, puhtaan veden ja toimivan lämpötilanhallinnan.
 
-## 9. Käytännön viljelysuunnitelma Thaimaahan
+## 9. Käytännön viljelysuunnitelma Thaimaahan {#thailand-trial}
 
 Seuraava on ehdotus 10 m²:n koeviljelmäksi, jonka tarkoitus on selvittää lajike-erot, sadontuotto ja sadekauden riskit ilman suurta alkuinvestointia.
 
@@ -427,7 +448,7 @@ Seuraava on ehdotus 10 m²:n koeviljelmäksi, jonka tarkoitus on selvittää laj
 
 5 m²
 
-## Vihreä
+### Vihreä
 
 A. tricolor
 
@@ -435,7 +456,7 @@ Tavoite: lehtien kasvu ja sadon määrä
 
 5 m²
 
-## Punainen
+### Punainen
 
 A. tricolor
 
@@ -450,20 +471,20 @@ Tavoite: kasvu, maku ja lehtien väri
 5. Jatkosato. Jos käytetään leikkuukorjuuta, jätä kasviin riittävästi lehtiä ja kasvupisteitä. Uutta satoa voi saada noin kahdessa viikossa.
 6. Tulosten mittaus. Punnitse jokainen sato, kirjaa kasvuaika, kastelu, sää, tuholaiset ja lehtien laatu. Näin vihreää ja punaista lajiketta voi verrata oikeasti.
 
-Kylvö-, leikkuukorjuu- ja kasvuaikaohjeet perustuvat yliopistojen tuotanto-ohjeisiin.&#x20;
+Kylvö-, leikkuukorjuu- ja kasvuaikaohjeet perustuvat yliopistojen tuotanto-ohjeisiin.
 
 
 
 ### Kuinka paljon satoa voisi saada?
 
-Thaimaalaisessa tutkimuksessa verrattiin eri amaranttilajien taimituotantoa. Yhdessä lyhyen kasvatusjakson kokeessa saannot vaihtelivat noin 0,28–0,60 kg:n välillä neliömetriltä lajista riippuen.&#x20;
+Thaimaalaisessa tutkimuksessa verrattiin eri amaranttilajien taimituotantoa. Yhdessä lyhyen kasvatusjakson kokeessa saannot vaihtelivat noin 0,28–0,60 kg:n välillä neliömetriltä lajista riippuen.
 
 
 Jos käyttäisimme tätä vain suuntaa antavana vertailuna:
 
 Esimerkkilaskelma 10 m²:n alalle, yksi satokerta
 
-# 2,8–6,0 kg
+**2,8–6,0 kg**
 
 Tuoreita versoja ja lehtiä kokeen havaittuun satotasoon perustuvalla laskelmalla.
 
@@ -471,12 +492,12 @@ Ei ennuste tietyn kasvupaikan sadosta. Varsinainen tulos riippuu muun muassa laj
 
 Tässä ei ole mukana mahdollisia myöhempiä leikkuusatoja. Ne pitäisi mitata erikseen.
 
-Thaimaan omassa kahdeksaa amaranttikantaa vertailevassa tutkimuksessa havaittiin myös, että kasvunopeus ja ravintokoostumus poikkesivat merkittävästi lajikkeittain. Thaimaalainen paikallinen kanta AS 129 menestyi siinä erityisen hyvin.&#x20;
+Thaimaan omassa kahdeksaa amaranttikantaa vertailevassa tutkimuksessa havaittiin myös, että kasvunopeus ja ravintokoostumus poikkesivat merkittävästi lajikkeittain. Thaimaalainen paikallinen kanta AS 129 menestyi siinä erityisen hyvin.
 
 
 Tämä puoltaa paikallisiin kasvuoloihin jo sopeutuneiden lajikkeiden kokeilemista.
 
-## 10. Siemenamarantin viljely Thaimaassa
+## 10. Siemenamarantin viljely Thaimaassa {#thailand-grain}
 
 Siementuotanto on eri asia kuin nopeasti korjattava lehtituotanto.
 
@@ -493,12 +514,12 @@ Monille lajikkeille on tyypillistä:
 | Suurimmat riskit | Sateet, sienitaudit, lakoontuminen, sadon kuivatus |
 | Jälkikäsittely   | Puinti, puhdistus ja huolellinen kuivaus           |
 
-Amarantilla esiintyy myös päivänpituusherkkyyttä. Osa lajikkeista aloittaa kukinnan herkemmin lyhyessä päivässä. Tämä vaikuttaa suuresti sekä trooppiseen että pohjoiseen viljelyyn.&#x20;
+Amarantilla esiintyy myös päivänpituusherkkyyttä. Osa lajikkeista aloittaa kukinnan herkemmin lyhyessä päivässä. Tämä vaikuttaa suuresti sekä trooppiseen että pohjoiseen viljelyyn.
 
 
 ### Milloin siemenamaranttia kannattaisi viljellä Thaimaassa?
 
-Ensimmäiseksi kokeilisin viljelyjaksoa, jonka siementen kypsyminen osuu suhteellisen kuivaan vuodenaikaan.
+Kylvöajankohtaa kannattaa kokeilla niin, että siementen kypsyminen osuisi suhteellisen kuivaan vuodenaikaan.
 
 Käytännössä tämä tarkoittaisi Bangkokin ympäristössä esimerkiksi loppuvuoden kylvöjen kokeilemista.
 
@@ -506,14 +527,14 @@ Suurin ongelma ei välttämättä ole saada kasvia kasvamaan, vaan saada siemene
 
 Jos puinti tehdään kosteassa säässä, sadon pilaantumisriski kasvaa.
 
-Ontarion maatalousohje suosittelee puhdistamaan siemenet ja kuivaamaan ne noin 8 prosentin kosteuteen varastointia varten.&#x20;
+Ontarion maatalousohje suosittelee puhdistamaan siemenet ja kuivaamaan ne noin 8 prosentin kosteuteen varastointia varten.
 
 
 ### Kuinka suuri siemensato on mahdollinen?
 
 Viljelytutkimusten satotasot vaihtelevat huomattavasti.
 
-Usein esitetty vaihteluväli on noin 500–2 000 kg hehtaarilta, mutta hyvin onnistuneissa kokeissa on päästy huomattavasti korkeammallekin.&#x20;
+Usein esitetty vaihteluväli on noin 500–2 000 kg hehtaarilta, mutta hyvin onnistuneissa kokeissa on päästy huomattavasti korkeammallekin.
 
 
 
@@ -521,7 +542,7 @@ Tämä vastaa tavanomaisella vaihteluvälillä noin 50–200 grammaa kuivia siem
 
 Pienellä koepalstalla siementen kerääminen käsin voi kuitenkin olla työlästä suhteessa sadon määrään.
 
-## 11. Amarantin viljely Suomessa
+## 11. Amarantin viljely Suomessa {#finland}
 
 Suomessa amarantti kannattaa erottaa kahteen eri tavoitteeseen: lehtien tuotantoon ja kypsien siementen tuotantoon.
 
@@ -543,12 +564,12 @@ Päivänpituus saattaa aiheuttaa lisäongelman: lyhyen päivän kukkijat voivat 
 
 Varhaisen, päivänpituuteen vähän reagoivan lajikkeen valitseminen on ratkaisevaa.
 
-Luhangan seudulla kokeilisin ensin 5–10 kasvin siementuotantoa lämpimässä, suojaisassa paikassa, en vielä suurempaa viljelyalaa.
+Luhangan seudulla voi aloittaa 5–10 kasvin siementuotannolla lämpimässä, suojaisassa paikassa ennen suuremman viljelyalan kokeilemista.
 
-Kanadan Ontariossa siemenamarantin viljely on mahdollista, mutta sielläkin korostetaan lämpimän kylvömaan, hallattoman kasvukauden ja sadon kuivauksen merkitystä.&#x20;
+Kanadan Ontariossa siemenamarantin viljely on mahdollista, mutta sielläkin korostetaan lämpimän kylvömaan, hallattoman kasvukauden ja sadon kuivauksen merkitystä.
 
 
-## 12. Tuholaiset ja kasvisairaudet
+## 12. Tuholaiset ja kasvisairaudet {#pests}
 
 Amaranttia kuvataan joskus lähes ongelmattomaksi viljelykasviksi. Tämä on liioittelua.
 
@@ -556,11 +577,11 @@ Sen suurimpia ongelmia voivat olla lehtiä syövät toukat, kirvat, lehtikuoriai
 
 Trooppisissa oloissa erityisesti korkea kosteus ja liian tiheä kasvusto voivat pahentaa sienitautiongelmia. Jatkuva saman kasvin viljely samalla paikalla puolestaan kasvattaa tiettyjen tuholaisten ja tautien painetta.
 
-Käytännössä tärkeintä on hyvä vedenpoisto, riittävä ilmankierto, terve kylvösiemen, kasvinjätteiden poistaminen ja viljelykierto. Kemiallista torjuntaa ei kannata käyttää ilman varmistusta siitä, että valmiste on hyväksytty juuri kyseiselle ruokakasville ja käyttömaassa.&#x20;
+Käytännössä tärkeintä on hyvä vedenpoisto, riittävä ilmankierto, terve kylvösiemen, kasvinjätteiden poistaminen ja viljelykierto. Kemiallista torjuntaa ei kannata käyttää ilman varmistusta siitä, että valmiste on hyväksytty juuri kyseiselle ruokakasville ja käyttömaassa.
 
 
 
-## 13. Miltä amarantti maistuu ja miten sitä käytetään?
+## 13. Miltä amarantti maistuu ja miten sitä käytetään? {#taste}
 
 ### Lehdet
 
@@ -574,7 +595,7 @@ Se sopii hyvin myös höyrytettäväksi. Runsaasti oksalaattia sisältäviä leh
 
 ### Siemenet
 <figure class="article-image">
-<img src="{{ '/assets/images/amarantti-lehdet-ja-siemenet.png' | relative_url }}" alt="Tuoreita amarantinlehtiä ja kulhollinen amarantinsiemeniä">
+<img src="{{ '/assets/images/amarantti-lehdet-ja-siemenet.webp' | relative_url }}" alt="Tuoreita amarantinlehtiä ja kulhollinen amarantinsiemeniä" width="1536" height="1024" loading="lazy" decoding="async">
 <figcaption>Amarantista käytetään sekä lehtiä että pieniä siemeniä.</figcaption>
 </figure>
 
@@ -592,9 +613,9 @@ Amaranttijauhoissa ei ole gluteenin muodostamaa sitkoverkkoa. Leivonnassa se tar
 
 Keliamikkojen on syytä valita gluteenittomaksi merkitty tuote, koska jauhamisen ja pakkaamisen aikana voi tapahtua ristikontaminaatiota.
 
-## 14. Onko amarantilla kaupallista potentiaalia?
+## 14. Onko amarantilla kaupallista potentiaalia? {#commercial}
 
-Mielestäni kyllä, mutta mahdollisuudet ovat varsin erilaisia eri tuoteryhmissä.
+Amarantin kaupallisia mahdollisuuksia kannattaa arvioida tuoteryhmittäin, sillä tuotannon vaatimukset ja markkinat eroavat toisistaan.
 
 | Tuote                  | Tuotannon vaikeus | Kaupallinen mahdollisuus                           |
 | ---------------------- | ----------------- | -------------------------------------------------- |
@@ -613,7 +634,7 @@ Laadullinen arvio, ei markkinahintoihin tai toteutuneeseen kannattavuuteen perus
 
 Amarantin mikrovihreät eli microgreens-versot kerätään jo noin 10–18 vuorokauden iässä. Ne soveltuvat pienialaisiin kasvatusjärjestelmiin.
 
-Thaimaassa vuonna 2026 julkaistussa tutkimuksessa verrattiin punaisten amaranttiversojen kasvua ja kasvikemiallisia ominaisuuksia 7, 10 ja 14 vuorokauden korjuuiässä. Pitoisuudet ja sato vaihtelivat merkittävästi kasvuiän mukaan.&#x20;
+Thaimaassa vuonna 2026 julkaistussa tutkimuksessa verrattiin punaisten amaranttiversojen kasvua ja kasvikemiallisia ominaisuuksia 7, 10 ja 14 vuorokauden korjuuiässä. Pitoisuudet ja sato vaihtelivat merkittävästi kasvuiän mukaan.
 
 
 
@@ -629,7 +650,7 @@ Todellinen talteen otettu määrä jäisi käsittelyhäviöiden vuoksi pienemmä
 
 Tämä selittää, miksi amarantin kasvattaminen nimenomaan skvaleenin teollista erottamista varten on paljon monimutkaisempi liiketoiminta kuin lehtien tai siementen myynti.
 
-## 15. Amarantti tulevaisuuden viljelykasvina
+## 15. Amarantti tulevaisuuden viljelykasvina {#future}
 
 Ilmastonmuutokseen sopeutumisessa amarantilla on useita kiinnostavia ominaisuuksia: C4-yhteyttäminen, kuivuudensieto, viljelykelpoisuus monenlaisissa maissa ja monipuolinen käyttö elintarvikkeena.
 
@@ -637,15 +658,15 @@ Kasvin geneettinen monimuotoisuus tarjoaa myös mahdollisuuksia kehittää entis
 
 Nykyisten lajikkeiden välillä on suuria eroja esimerkiksi kukinnan ajoittumisessa, sadon määrässä, kuumuudenkestävyydessä, suolansiedossa ja ravinnepitoisuuksissa.
 
-Siksi pitäisin amarantin jalostusta yhtä tärkeänä tutkimuskohteena kuin sen ravintoaineita. Kasvi ei ole vielä saavuttanut samaa viljelyteknistä kehitystasoa kuin esimerkiksi vehnä tai riisi.&#x20;
+Amarantin jalostus on tärkeä tutkimuskohde ravintosisällön rinnalla. Kasvi ei ole vielä saavuttanut samaa viljelyteknistä kehitystasoa kuin esimerkiksi vehnä tai riisi.
 
 
 
 Tulevaisuudessa kiinnostavia kehityssuuntia ovat erityisesti aikaisin kypsyvät siemenlajikkeet, paremmin märkyyttä sietävät lehtilajikkeet, vähäoksalaattiset ruokakasvit sekä suurempaa öljy- tai betalaiinipitoisuutta tuottavat kannat.
 
-## 16. Kokonaisarvio
+## 16. Kokonaisarvio {#assessment}
 
-OMA ARVIONI KASVIN OMINAISUUKSISTA, EI VIRALLINEN TUTKIMUSLUOKITUS
+Toimituksellinen arvio amarantin ominaisuuksista; ei tieteellinen tai virallinen luokitus.
 
 | Arvioinnin kohde | Arvosana |
 | --- | ---: |
@@ -657,14 +678,14 @@ OMA ARVIONI KASVIN OMINAISUUKSISTA, EI VIRALLINEN TUTKIMUSLUOKITUS
 | Viljely Suomessa (siemenet) | 2,0 / 5 |
 | Todennetut erityiset terveysvaikutukset | 1,5 / 5 |
 
-Pidän amaranttia yhtenä kiinnostavimmista alihyödynnetyistä ruokakasviryhmistä. Varsinkin Thaimaassa se on hyvin perusteltu viljelykokeilun kohde.
+Amarantti on kiinnostava alihyödynnetty ruokakasviryhmä ja Thaimaassa perusteltu viljelykokeilun kohde.
 
 Sen todellinen vahvuus ei ole mikään yksittäinen ihmeaine. Se on yhdistelmä ravitsemuksellisia, biologisia ja viljelyllisiä ominaisuuksia, joita löytyy harvoin yhtä monipuolisesti samasta kasvista.
 
-### Mitä itse selvittäisin seuraavaksi?
+### Mitä olisi hyödyllistä selvittää seuraavaksi?
 
 Erityisesti kolmea asiaa: mitkä thaimaalaiset lajikkeet tuottavat suurimman ja laadukkaimman lehtisadon, miten eri viljelyolosuhteet vaikuttavat oksalaattien ja hyödyllisten pigmenttien pitoisuuksiin sekä voisiko pienellä korotettuihin kasvatuspenkkeihin tai vesiviljelyyn perustuvalla järjestelmällä tuottaa tasalaatuista amaranttia ympäri vuoden.
 
-Nämä ovat mielestäni paljon kiinnostavampia ja realistisemmin tutkittavia kysymyksiä kuin esimerkiksi ajatus siitä, että amarantti olisi jonkinlainen ihmelääke.
+Nämä kysymykset ovat konkreettisia ja tutkittavissa olevia; niihin keskittyminen on perustellumpaa kuin amarantin pitäminen ihmelääkkeenä.
 
-Raportin keskeiset tutkimus- ja viljelylähteet ovat USDA:n ravintotietokanta, [Floridan yliopiston viljelyopas](https://ask.ifas.ufl.edu/publication/HS1407?utm_source=chatgpt.com), [Ontarion siemenamarantin viljelyohje](https://www.omafra.gov.on.ca/CropOp/en/field_grain/spec_grains/gama.html?utm_source=chatgpt.com), [skvaleenin pitoisuuksia käsittelevä tutkimus](https://pubmed.ncbi.nlm.nih.gov/14690373/?utm_source=chatgpt.com) sekä Thaimaan paikalliset amarantin viljelytutkimukset.
+Raportin keskeiset tutkimus- ja viljelylähteet ovat USDA:n ravintotietokanta, [Floridan yliopiston viljelyopas](https://ask.ifas.ufl.edu/publication/HS1407), [Ontarion siemenamarantin viljelyohje](https://www.omafra.gov.on.ca/CropOp/en/field_grain/spec_grains/gama.html), [He ja Corke, “Oil and squalene in amaranthus grain and leaf” (2003)](https://pubmed.ncbi.nlm.nih.gov/14690373/) sekä Thaimaan paikalliset amarantin viljelytutkimukset.
