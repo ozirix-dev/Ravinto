@@ -256,6 +256,17 @@ Samassa vuoden 2026 tutkimuksessa siemenuute vähensi glukoosin ja kolesterolin 
 ### Yhteenveto
 
 Tähän mennessä ihmistutkimukset eivät osoita luotettavasti, että amarantti tai amaranttiöljy alentaisi kolesterolia. Verensokeria koskevat havainnot ovat alustavia ja riippuvat tutkitusta tuotteesta: lehtijauhe, siemenuute, viljaseos ja paisutettu siemen eivät ole keskenään sama asia. Amaranttia voi käyttää osana monipuolista ruokavaliota, mutta sitä ei pidä pitää lääkkeenä eikä määrättyä hoitoa korvaavana tuotteena.
+### Väestöhavainnot eri alueilta ja elinikä
+
+Amarantin käyttöä on tutkittu eri alueilla, mutta tutkimusten tulokset eivät osoita, että amarantin syöminen pidentäisi elinikää.
+
+- **Kenia ja Tansania:** haastatteluissa ja ryhmäkeskusteluissa kuvattiin amarantin käyttöä lehtivihanneksena sekä sen saatavuutta ja suosiota paikallisyhteisöissä. Tutkimuksessa ei mitattu sairauksia, kuolleisuutta eikä elinikää. [Nyonje ym. 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9233608/)
+- **Etiopia:** aneemisilla 2–5-vuotiailla lapsilla kuuden kuukauden tutkimuksessa amaranttia ja kikhernettä sisältävä leipä vähensi anemiaa vertailuryhmään nähden. Tuote oli usean raaka-aineen yhdistelmä, joten vaikutusta ei voi lukea yksin amarantin ansioksi. Tulos koskee kyseistä ruokainterventiota ja lapsia, eikä kerro eliniästä. [Orsango ym. 2020](https://pubmed.ncbi.nlm.nih.gov/32986748/)
+- **Kenia:** esikouluikäisten lasten 16 viikon tutkimuksessa amaranttia ja maissia sisältävä puuro ei parantanut merkitsevästi hemoglobiini- tai rautatilannetta. Tulokset siis vaihtelevat tutkimusasetelman ja tuotteen mukaan. [Tutkimus PubMedissä](https://pubmed.ncbi.nlm.nih.gov/22810982/)
+- **Yhdysvallat:** suurissa seurantatutkimuksissa suurempi täysjyväviljojen kokonaiskäyttö on liittynyt pienempään kokonais- ja sydän- ja verisuonitautikuolleisuuteen. Kyse ei ollut amarantin erillisestä vaikutuksesta, joten tulosta ei voi käyttää näyttönä siitä, että juuri amarantti pidentäisi elinikää. [Wu ym. 2015](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2087877)
+
+**Elinikää koskeva johtopäätös:** käytettävissä ei ole luotettavaa pitkäaikaista väestötutkimusta, joka osoittaisi runsaan amarantin käytön pidentävän elinikää tai vähentävän kuolleisuutta. Alueelliset käyttöhavainnot kertovat ruokaperinteistä ja saatavuudesta; ne eivät yksin osoita terveysvaikutusta. Myös ruokavalion kokonaisuus, toimeentulo, ruokaturva ja terveyspalvelut vaikuttavat väestöjen terveyteen.
+
 ## 6. Turvallisuus ja mahdolliset haitat
 
 ### Oksalaatit
