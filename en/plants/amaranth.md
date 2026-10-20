@@ -4,7 +4,7 @@ layout: page
 permalink: /en/plants/amaranth/
 ---
 
-[Suomeksi: Amarantti]({{ '/kasvit/amarantti/' | relative_url }})
+[Suomeksi: Amarantti]({{ '/kasvit/amarantti/' | relative_url }}) · [English: Amaranth]({{ '/en/plants/amaranth/' | relative_url }}) · [ภาษาไทย: อมารันท์]({{ '/th/plants/amaranth/' | relative_url }})
 
 # AMARANTH (AMARANTHUS)
 
