@@ -627,33 +627,15 @@ Tulevaisuudessa kiinnostavia kehityssuuntia ovat erityisesti aikaisin kypsyvät 
 
 OMA ARVIONI KASVIN OMINAISUUKSISTA, EI VIRALLINEN TUTKIMUSLUOKITUS
 
-Ravintoarvo
-
-4,5 / 5
-
-Monikäyttöisyys
-
-5,0 / 5
-
-Kuumuudensieto
-
-4,5 / 5
-
-Viljely Thaimaassa
-
-4,5 / 5
-
-Viljely Suomessa (lehdet)
-
-3,5 / 5
-
-Viljely Suomessa (siemenet)
-
-2,0 / 5
-
-Todennetut erityiset terveysvaikutukset
-
-1,5 / 5
+| Arvioinnin kohde | Arvosana |
+| --- | ---: |
+| Ravintoarvo | 4,5 / 5 |
+| Monikäyttöisyys | 5,0 / 5 |
+| Kuumuudensieto | 4,5 / 5 |
+| Viljely Thaimaassa | 4,5 / 5 |
+| Viljely Suomessa (lehdet) | 3,5 / 5 |
+| Viljely Suomessa (siemenet) | 2,0 / 5 |
+| Todennetut erityiset terveysvaikutukset | 1,5 / 5 |
 
 Pidän amaranttia yhtenä kiinnostavimmista alihyödynnetyistä ruokakasviryhmistä. Varsinkin Thaimaassa se on hyvin perusteltu viljelykokeilun kohde.
 
