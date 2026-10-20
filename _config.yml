@@ -3,6 +3,7 @@ description: Kasvien ravinto, terveys ja viljely
 theme: minima
 markdown: kramdown
 header_pages:
+  - en/index.md
   - kasvit/index.md
 plugins:
   - jekyll-feed
