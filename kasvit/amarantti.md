@@ -4,6 +4,8 @@ layout: page
 permalink: /kasvit/amarantti/
 ---
 
+[English version: Amaranth]({{ '/en/plants/amaranth/' | relative_url }})
+
 # AMARANTTI (AMARANTHUS)
 
 Laaja kasvi-, ravinto-, terveys- ja viljelyraportti | 20.10.2026
