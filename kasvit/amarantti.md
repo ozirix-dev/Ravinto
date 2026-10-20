@@ -15,9 +15,10 @@ Se ei ole pelkästään viljan korvike. Amarantista voidaan hyödyntää siemene
 Erityisen kiinnostavia ovat siementen aminohappokoostumus, öljyn sisältämä skvaleeni ja punaisten lehtien betalaiiniväriaineet.
 
 Amarantti sopii myös Thaimaassa viljeltäväksi, mutta lehti- ja siementuotannon välillä on merkittäviä käytännön eroja.
-![Amaranttikasvi punaisine kukintoineen ja vihreine lehtineen]({{ '/assets/images/amarantti-kasvi.png' | relative_url }})
-
-*Amarantti kasvaa korkeaksi ja muodostaa näyttävät kukinnot.*
+<figure class="article-image">
+<img src="{{ '/assets/images/amarantti-kasvi.png' | relative_url }}" alt="Amaranttikasvi punaisine kukintoineen ja vihreine lehtineen">
+<figcaption>Amarantti kasvaa korkeaksi ja muodostaa näyttävät kukinnot.</figcaption>
+</figure>
 
 
 ## 1. Tiivistelmä – tärkeimmät havainnot
@@ -298,9 +299,10 @@ Siksi syötävää amaranttia ei kannata kasvattaa epäpuhtaassa täyttömaassa,
 ## 7. Kasvuolosuhteet – kuinka vaativa kasvi amarantti on?
 
 Amarantin vahvuus on kyky kasvaa monenlaisissa olosuhteissa. Kuivuudenkestävyys ei kuitenkaan tarkoita, että kasvi tuottaisi suuren sadon ilman vettä.
-![Amarantteja kasvamassa kohopenkissä]({{ '/assets/images/amarantti-viljely.png' | relative_url }})
-
-*Esimerkki amarantin kasvatuksesta hyvin vettä läpäisevässä penkissä.*
+<figure class="article-image">
+<img src="{{ '/assets/images/amarantti-viljely.png' | relative_url }}" alt="Amarantteja kasvamassa kohopenkissä">
+<figcaption>Esimerkki amarantin kasvatuksesta hyvin vettä läpäisevässä penkissä.</figcaption>
+</figure>
 
 
 | Kasvutekijä  | Suositeltava olosuhde                                             |
@@ -551,9 +553,10 @@ Thaimaassa lehtiamaranttia voidaan käyttää esimerkiksi valkosipulin kanssa wo
 Se sopii hyvin myös höyrytettäväksi. Runsaasti oksalaattia sisältäviä lehtiä kannattaa valmistaa keittämällä ja poistamalla keitinvesi.
 
 ### Siemenet
-![Tuoreita amarantinlehtiä ja kulhollinen amarantinsiemeniä]({{ '/assets/images/amarantti-lehdet-ja-siemenet.png' | relative_url }})
-
-*Amarantista käytetään sekä lehtiä että pieniä siemeniä.*
+<figure class="article-image">
+<img src="{{ '/assets/images/amarantti-lehdet-ja-siemenet.png' | relative_url }}" alt="Tuoreita amarantinlehtiä ja kulhollinen amarantinsiemeniä">
+<figcaption>Amarantista käytetään sekä lehtiä että pieniä siemeniä.</figcaption>
+</figure>
 
 
 
