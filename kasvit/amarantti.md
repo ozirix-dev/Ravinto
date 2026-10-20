@@ -1,30 +1,35 @@
 ---
 title: Amarantti – ravintoarvot, terveysvaikutukset ja viljely
 description: Tutustu amarantin ravintoarvoihin, terveysvaikutusten tutkimuksiin, verensokeriin, kolesteroliin sekä viljelyyn Suomessa ja Thaimaassa.
-layout: page
+layout: article
 lang: fi
 permalink: /kasvit/amarantti/
 toc_title: Artikkelin sisältö
-toc:
-  - { id: summary, title: Tiivistelmä }
-  - { id: plant, title: Mikä amarantti on? }
-  - { id: nutrition, title: Ravintoarvot }
-  - { id: compounds, title: Amarantin yhdisteet }
-  - { id: evidence, title: Terveysvaikutukset ja tutkimusnäyttö }
-  - { id: safety, title: Turvallisuus }
-  - { id: growing-conditions, title: Kasvuolosuhteet }
-  - { id: thailand, title: Viljely Thaimaassa }
-  - { id: thailand-trial, title: Käytännön viljelysuunnitelma }
-  - { id: thailand-grain, title: Siemenamarantti Thaimaassa }
-  - { id: finland, title: Viljely Suomessa }
-  - { id: pests, title: Tuholaiset ja kasvitaudit }
-  - { id: taste, title: Maku ja käyttö }
-  - { id: commercial, title: Kaupallinen potentiaali }
-  - { id: future, title: Amarantti tulevaisuuden viljelykasvina }
-  - { id: assessment, title: Kokonaisarvio }
+toc_levels: "2,3"
+image: /assets/images/amarantti-kasvi.webp
+image_alt: Amaranttikasvi punaisine kukintoineen ja vihreine lehtineen
+index_url: /kasvit/
+article_labels:
+  published: Julkaistu
+  updated: Päivitetty
+  author: Kirjoittaja
+  languages: Artikkeli muilla kielillä
+  table: Tietotaulukko
+  sources: Keskeiset lähteet
+  related: Aiheeseen liittyvää
+  index: Kasvien hakemisto
+translations:
+  - { lang: fi, hreflang: fi-FI, label: Suomi, url: /kasvit/amarantti/ }
+  - { lang: en, hreflang: en, label: English, url: /en/plants/amaranth/ }
+  - { lang: th, hreflang: th, label: ภาษาไทย, url: /th/plants/amaranth/ }
+sources:
+  - { title: USDA FoodData Central, url: https://fdc.nal.usda.gov/ }
+  - { title: Floridan yliopiston viljelyopas, url: https://ask.ifas.ufl.edu/publication/HS1407 }
+  - { title: Ontarion siemenamarantin viljelyohje, url: https://www.omafra.gov.on.ca/CropOp/en/field_grain/spec_grains/gama.html }
+  - { title: He ja Corke, “Oil and squalene in amaranthus grain and leaf” (2003), url: https://pubmed.ncbi.nlm.nih.gov/14690373/ }
+  - { title: Thaimaan paikalliset amarantin viljelytutkimukset }
 audio:
   src: /assets/audio/amaranth-fi.mp3
-  table_label: Tietotaulukko
   play: "Kuuntele"
   pause: "Tauko"
   loading: "Ääni latautuu…"
@@ -32,12 +37,6 @@ audio:
   note: "Tekoälyn tuottama ääniversio."
   aria_label: "Kuuntele artikkeli"
 ---
-
-[Suomeksi: Amarantti]({{ '/kasvit/amarantti/' | relative_url }}) · [English: Amaranth]({{ '/en/plants/amaranth/' | relative_url }}) · [ภาษาไทย: อมารันท์]({{ '/th/plants/amaranth/' | relative_url }})
-
-{% include audio-player.html %}
-
-{% include article-toc.html %}
 
 Laaja kasvi-, ravinto-, terveys- ja viljelyraportti | 20.10.2026
 
@@ -286,7 +285,7 @@ Samassa vuoden 2026 raportissa HbA1c laski keskimäärin 5,8 ± 0,4 prosentista 
 
 Samassa vuoden 2026 tutkimuksessa siemenuute vähensi glukoosin ja kolesterolin kulkeutumista suolistomallissa. Tulos on laboratoriomittaus, eikä sitä voi tulkita vastaavaksi prosentuaaliseksi verensokerin tai kolesterolin laskuksi ihmisellä.
 
-### Yhteenveto
+### Yhteenveto {#evidence-summary}
 
 Tähän mennessä ihmistutkimukset eivät osoita luotettavasti, että amarantti tai amaranttiöljy alentaisi kolesterolia. Verensokeria koskevat havainnot ovat alustavia ja riippuvat tutkitusta tuotteesta: lehtijauhe, siemenuute, viljaseos ja paisutettu siemen eivät ole keskenään sama asia. Amaranttia voi käyttää osana monipuolista ruokavaliota, mutta sitä ei pidä pitää lääkkeenä eikä määrättyä hoitoa korvaavana tuotteena.
 ### Väestöhavainnot eri alueilta ja elinikä
@@ -687,5 +686,3 @@ Sen todellinen vahvuus ei ole mikään yksittäinen ihmeaine. Se on yhdistelmä 
 Erityisesti kolmea asiaa: mitkä thaimaalaiset lajikkeet tuottavat suurimman ja laadukkaimman lehtisadon, miten eri viljelyolosuhteet vaikuttavat oksalaattien ja hyödyllisten pigmenttien pitoisuuksiin sekä voisiko pienellä korotettuihin kasvatuspenkkeihin tai vesiviljelyyn perustuvalla järjestelmällä tuottaa tasalaatuista amaranttia ympäri vuoden.
 
 Nämä kysymykset ovat konkreettisia ja tutkittavissa olevia; niihin keskittyminen on perustellumpaa kuin amarantin pitäminen ihmelääkkeenä.
-
-Raportin keskeiset tutkimus- ja viljelylähteet ovat USDA:n ravintotietokanta, [Floridan yliopiston viljelyopas](https://ask.ifas.ufl.edu/publication/HS1407), [Ontarion siemenamarantin viljelyohje](https://www.omafra.gov.on.ca/CropOp/en/field_grain/spec_grains/gama.html), [He ja Corke, “Oil and squalene in amaranthus grain and leaf” (2003)](https://pubmed.ncbi.nlm.nih.gov/14690373/) sekä Thaimaan paikalliset amarantin viljelytutkimukset.

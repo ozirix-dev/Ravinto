@@ -3,7 +3,6 @@
   data-pause="{{ page.audio.pause | escape }}"
   data-loading="{{ page.audio.loading | escape }}"
   data-error="{{ page.audio.error | escape }}"
-  data-table-label="{{ page.audio.table_label | escape }}"
   aria-label="{{ page.audio.aria_label | escape }}">
   <audio preload="none" src="{{ page.audio.src | relative_url }}"></audio>
   <button class="article-audio__button" type="button" aria-label="{{ page.audio.aria_label | escape }}" aria-pressed="false">{{ page.audio.play | escape }}</button>

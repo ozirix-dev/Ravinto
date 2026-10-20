@@ -1,0 +1,125 @@
+---
+layout: default
+---
+<article class="post h-entry article-layout" lang="{{ page.lang | escape }}">
+  <header class="post-header article-header">
+    <h1 class="post-title p-name">{{ page.title | escape }}</h1>
+    {% if page.intro %}
+    <p class="article-intro">{{ page.intro | escape }}</p>
+    {% endif %}
+
+    {% if page.date or page.updated or page.author %}
+    <dl class="article-meta">
+      {% if page.date %}
+      <div>
+        <dt>{{ page.article_labels.published | escape }}</dt>
+        <dd><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></dd>
+      </div>
+      {% endif %}
+      {% if page.updated %}
+      <div>
+        <dt>{{ page.article_labels.updated | escape }}</dt>
+        <dd><time datetime="{{ page.updated | date_to_xmlschema }}">{{ page.updated | date: "%Y-%m-%d" }}</time></dd>
+      </div>
+      {% endif %}
+      {% if page.author.name %}
+      <div>
+        <dt>{{ page.article_labels.author | escape }}</dt>
+        <dd>{{ page.author.name | escape }}</dd>
+      </div>
+      {% elsif page.author %}
+      <div>
+        <dt>{{ page.article_labels.author | escape }}</dt>
+        <dd>{{ page.author | escape }}</dd>
+      </div>
+      {% endif %}
+    </dl>
+    {% endif %}
+
+    {% if page.translations %}
+    <nav class="article-languages" aria-label="{{ page.article_labels.languages | escape }}">
+      <ul>
+        {% for translation in page.translations %}
+        <li>
+          {% if translation.lang == page.lang %}
+          <span lang="{{ translation.lang | escape }}" aria-current="page">{{ translation.label | escape }}</span>
+          {% else %}
+          <a href="{{ translation.url | relative_url }}" lang="{{ translation.lang | escape }}" hreflang="{{ translation.hreflang | escape }}">{{ translation.label | escape }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    {% endif %}
+  </header>
+
+  <div class="post-content e-content article-content" data-table-label="{{ page.article_labels.table | escape }}">
+    {% if page.audio.src %}
+    {% include audio-player.html %}
+    {% endif %}
+
+    {% if page.toc_title %}
+    {% include article-toc.html %}
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.sources and page.sources.size > 0 %}
+    <section class="article-sources" aria-labelledby="article-sources-title">
+      <h2 id="article-sources-title">{{ page.article_labels.sources | escape }}</h2>
+      <ul>
+        {% for source in page.sources %}
+        <li>
+          {% if source.url %}
+          <a href="{{ source.url | absolute_url | escape }}">{{ source.title | escape }}</a>
+          {% else %}
+          {{ source.title | escape }}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </div>
+
+  {% if page.related or page.index_url %}
+  <footer class="article-footer">
+    {% if page.related and page.related.size > 0 %}
+    <section aria-labelledby="article-related-title">
+      <h2 id="article-related-title">{{ page.article_labels.related | escape }}</h2>
+      <ul>
+        {% for item in page.related %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.index_url %}
+    <p class="article-index-link"><a href="{{ page.index_url | relative_url }}">{{ page.article_labels.index | escape }}</a></p>
+    {% endif %}
+  </footer>
+  {% endif %}
+</article>
+
+<script src="{{ '/assets/js/article-toc.js' | relative_url }}" defer></script>
+
+{% assign article_url = page.url | absolute_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ article_url | jsonify }} },
+  "headline": {{ page.title | jsonify }},
+  "inLanguage": {{ page.lang | jsonify }}{% if page.description %},
+  "description": {{ page.description | jsonify }}{% endif %}{% if page.date %},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }}{% endif %}{% if page.updated %},
+  "dateModified": {{ page.updated | date_to_xmlschema | jsonify }}{% endif %}{% if page.author.name and page.author.type %},
+  "author": { "@type": {{ page.author.type | jsonify }}, "name": {{ page.author.name | jsonify }} }{% endif %}{% if page.image %},
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ page.image | absolute_url | jsonify }}{% if page.image_alt %},
+    "caption": {{ page.image_alt | jsonify }}{% endif %}
+  }{% endif %}
+}
+</script>

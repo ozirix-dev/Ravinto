@@ -1,8 +1,6 @@
-<nav class="article-toc" aria-labelledby="article-toc-title">
-  <h2 id="article-toc-title">{{ page.toc_title | escape }}</h2>
-  <ol>
-    {% for item in page.toc %}
-    <li><a href="#{{ item.id }}">{{ item.title | escape }}</a></li>
-    {% endfor %}
-  </ol>
+<nav class="article-toc" aria-labelledby="article-toc-title" data-article-toc data-levels="{{ page.toc_levels | default: '2,3' | escape }}">
+  <details>
+    <summary id="article-toc-title">{{ page.toc_title | escape }}</summary>
+    <ol data-article-toc-list></ol>
+  </details>
 </nav>

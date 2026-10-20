@@ -1,7 +1,9 @@
-{% assign fi_url = '/kasvit/amarantti/' | prepend: site.baseurl | prepend: site.url %}
-{% assign en_url = '/en/plants/amaranth/' | prepend: site.baseurl | prepend: site.url %}
-{% assign th_url = '/th/plants/amaranth/' | prepend: site.baseurl | prepend: site.url %}
-<link rel="alternate" hreflang="fi-FI" href="{{ fi_url | escape }}">
-<link rel="alternate" hreflang="en" href="{{ en_url | escape }}">
-<link rel="alternate" hreflang="th" href="{{ th_url | escape }}">
-<link rel="alternate" hreflang="x-default" href="{{ fi_url | escape }}">
+{% if page.translations %}
+  {% assign default_translation = page.translations | where: 'hreflang', 'fi-FI' | first %}
+  {% for translation in page.translations %}
+<link rel="alternate" hreflang="{{ translation.hreflang | escape }}" href="{{ translation.url | absolute_url | escape }}">
+  {% endfor %}
+  {% if default_translation %}
+<link rel="alternate" hreflang="x-default" href="{{ default_translation.url | absolute_url | escape }}">
+  {% endif %}
+{% endif %}
