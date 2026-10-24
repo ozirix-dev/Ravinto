@@ -64,7 +64,9 @@ The deferred `assets/js/article-toc.js` reads H2/H3 headings from the rendered a
 
 Store optimized images in `assets/images/`. Use WebP where practical, provide accurate alt text, and include intrinsic `width` and `height` on every `<img>` to avoid layout shifts. Use `<figure>` and `<figcaption>` when an image needs a caption.
 
-Link research claims close to the relevant text and distinguish human, animal, and laboratory evidence. The optional `sources` list adds a localized key-sources section at the end of the article. Include only sources that can be identified and linked reliably.
+Link each research claim close to the relevant text, using a direct link to the identifiable paper or authoritative source rather than a general organization homepage. Make clear whether evidence comes from human, animal, or laboratory research, and do not present evidence from one type as proof of an effect in another. The optional `sources` list adds a localized key-sources section at the end of the article; list only sources that are individually identifiable and support claims made in the article.
+
+The repository checks article front matter, language-page permalinks, and referenced local media during `npm test`. Run a production Jekyll build before the sitemap check; the check verifies that every sitemap URL uses the configured `/Ravinto/` base path and that `robots.txt` points to the generated sitemap.
 
 ## Audio
 

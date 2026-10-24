@@ -5,7 +5,7 @@
   data-error="{{ page.audio.error | escape }}"
   aria-label="{{ page.audio.aria_label | escape }}">
   <audio preload="none" src="{{ page.audio.src | relative_url }}"></audio>
-  <button class="article-audio__button" type="button" aria-label="{{ page.audio.aria_label | escape }}" aria-pressed="false">{{ page.audio.play | escape }}</button>
+  <button class="article-audio__button" type="button" aria-label="{{ page.audio.play | escape }}" aria-pressed="false">{{ page.audio.play | escape }}</button>
   <p class="article-audio__note">{{ page.audio.note | escape }}</p>
   <p class="article-audio__status" role="status" aria-live="polite"></p>
 </section>
