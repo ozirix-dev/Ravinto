@@ -9,38 +9,94 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: fast-first-ravinto-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Classify change scope
+        id: scope
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BEFORE_SHA: ${{ github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then level=full
+          else
+            if [[ "$EVENT_NAME" == "pull_request" ]]; then base="$PR_BASE_SHA"; else base="$BEFORE_SHA"; fi
+            if [[ -z "$base" || "$base" =~ ^0+$ ]] || ! git cat-file -e "${base}^{commit}" 2>/dev/null; then level=full
+            else
+              mapfile -d '' -t paths < <(git diff --name-only -z "$base" "$HEAD_SHA")
+              if [[ ${#paths[@]} -eq 0 ]]; then level=full
+              else
+                level=docs
+                for path in "${paths[@]}"; do
+                  if [[ "$path" == README.md || "$path" == docs/* ]]; then
+                    :
+                  elif [[ "$path" == kasvit/* || "$path" == en/* || "$path" == th/* || "$path" == index.md ]]; then
+                    [[ "$level" == docs ]] && level=content
+                  elif [[ "$path" == assets/js/* || "$path" == assets/main.scss || "$path" == _includes/* || "$path" == _layouts/* ]]; then
+                    [[ "$level" == docs || "$level" == content ]] && level=ui
+                  elif [[ "$path" == assets/* ]]; then
+                    [[ "$level" == docs ]] && level=content
+                  elif [[ "$path" == .github/* || "$path" == tests/* || "$path" == scripts/* || "$path" == Gemfile* || "$path" == package*.json || "$path" == _config.yml || "$path" == playwright.config.js ]]; then
+                    level=full
+                  else
+                    level=full
+                  fi
+                done
+              fi
+            fi
+          fi
+          echo "level=$level" >> "$GITHUB_OUTPUT"
 
       - name: Set up Ruby
+        if: steps.scope.outputs.level != 'docs'
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3.12'
           bundler-cache: true
 
       - name: Set up Node.js
+        if: steps.scope.outputs.level != 'docs'
         uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: npm
 
       - name: Install Node dependencies
+        if: steps.scope.outputs.level == 'ui' || steps.scope.outputs.level == 'full'
         run: npm ci
 
       - name: Build production site
+        if: steps.scope.outputs.level != 'docs'
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
 
       - name: Check article metadata and sitemap
+        if: steps.scope.outputs.level != 'docs'
         run: npm test
 
       - name: Install Playwright browser
+        if: steps.scope.outputs.level == 'ui' || steps.scope.outputs.level == 'full'
         run: npx playwright install --with-deps chromium
 
       - name: Run browser and accessibility checks
+        if: steps.scope.outputs.level == 'ui' || steps.scope.outputs.level == 'full'
         run: npm run test:e2e
+
+      - name: Check documentation-only changes
+        if: steps.scope.outputs.level == 'docs'
+        run: git diff --check
