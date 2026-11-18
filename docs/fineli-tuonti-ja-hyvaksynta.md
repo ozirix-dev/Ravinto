@@ -1,7 +1,7 @@
 # Fineli – täydellisen lähdeaineistotuonnin tarkistuslista ja testisopimus
 
-**Tila:** toteutusta ohjaava Draft-dokumentti, ei suoritetun tuonnin raportti  
-**Päiväys:** 18.11.2026  
+**Tila:** toteutusta ohjaava Draft-dokumentti, ei suoritetun tuonnin raportti
+**Päiväys:** 18.11.2026
 **Arkkitehtuurisuunnitelma:** [Ravinto tietopankiksi](ravintotietopankki-fineli-arkkitehtuuri.md)
 
 Tämän dokumentin tarkoitus on estää houkutteleva mutta väärä oikotie: **ladataan Fineli, poimitaan vain kcal/proteiini/hiilihydraatti/rasva, ja sanotaan tuonnin onnistuneen**.
