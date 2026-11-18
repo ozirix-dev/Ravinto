@@ -1,8 +1,8 @@
 # Ravinto tietopankiksi: Fineli kokonaisena, lähteistetty tietomalli ja AI/MCP-rajapinta
 
-**Tila:** suunnitelmaluonnos (Draft PR), ei toteutettu eikä julkaistu  
-**Päiväys:** 18.11.2026  
-**Päämäärä:** Ravinto on eri asiakkaiden yhteinen *ravintokoostumustiedon lähde*, ei vain uusi ravintoaiheinen sivusto.  
+**Tila:** suunnitelmaluonnos (Draft PR), ei toteutettu eikä julkaistu
+**Päiväys:** 18.11.2026
+**Päämäärä:** Ravinto on eri asiakkaiden yhteinen *ravintokoostumustiedon lähde*, ei vain uusi ravintoaiheinen sivusto.
 **Aiheeseen liittyvä tarkistuslista:** [Fineli-tuonnin lähdeinventaario ja hyväksyntä](fineli-tuonti-ja-hyvaksynta.md)
 
 ## 1. Päätöksen tausta
